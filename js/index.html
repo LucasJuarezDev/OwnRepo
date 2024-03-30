@@ -7,7 +7,9 @@
 </head>
 <body>
     <script>
-        edad = 22;
+       //etiqueta utilizada para javascript en html
+       /*
+       edad = 22;
         edad_string = '22'
 
         if(edad !== edad_string){     //if y comparaciones estrictas
@@ -33,7 +35,21 @@
         }
 
         holas()
+        ///////////////////////////////////////////////////////////////////////////////////////
+        */  //FUNCIONES CON RETURN
+        let yo = 50
+        let octa = 22
+        let thiago = 22
 
+        function hombre(edad){
+            let calculo = edad - 5 //resta 5 al valor que ingrese aca
+            return calculo
+        }
+
+        let edad_total = hombre(yo) + hombre(octa) + hombre(thiago) 
+        ///por cada llamado a la funcion le resta 5: (22 - 5) + (22 - 5) + (22 - 5) = 51
+        console.log(edad_total)
+        
     </script>
     
 </body>
