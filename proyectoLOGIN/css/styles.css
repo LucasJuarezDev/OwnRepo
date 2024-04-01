@@ -1,0 +1,63 @@
+.{                  /* VALORES PREDETERMINADOS PARA LAS CLASES / TIPO DE CALIGRAFIA A USAR */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{                                   /* ESTILIZO EL CUERPO DE LA PAGINA */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /*se utiliza para definir la altura mínima de un elemento dado*/
+    background: linear-gradient(to left, #4A235A, #9B59B6) /*funcion de degrade de fondo*/
+}
+
+form{                               /* ESTILIZO EL CUADRADO QUE CONTIENE TODO */
+    display: flex;
+    flex-direction: column; /*alinea todos los elementos dentro del form en forma de columna, de arriba hacia abajo*/
+    background-color: white;
+    text-align: center;
+    padding: 20px 25px;
+    box-shadow: 0px 5px 10px black; /*agrego sombra al cuadrado del form*/
+}
+
+#tittle{                                    /*ESTILIZO EL TITULO "REGISTRARSE" */
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+ label{
+    margin-bottom: 20px; /*separacion entre elemento de busqueda*/
+}
+
+a{
+    margin-bottom: 15px;
+}
+
+form label .fa-solid{                   /* ESTILIZO LOS ICONOS DE LOGIN Y PASSWORD */
+    color: #4A235A;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+form label input{                       /* ESTILIZO LOS DOS INPUT / BARRAS DE BUSQUEDAS */
+    outline: none;
+    border: none;
+    color: #4A235A;
+    border-bottom: solid 0.5px;
+    padding: 0 5px; /*padding solo para correr 5px ambos costados, 'arriba y abajo' no se modificaron*/
+    font-size: 15px;
+}
+
+form button{
+    color: white;
+    border: none;
+    background: linear-gradient(to left, #4A235A, #9B59B6);
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
