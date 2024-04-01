@@ -23,6 +23,8 @@ form{                               /* ESTILIZO EL CUADRADO QUE CONTIENE TODO */
 }
 
 #tittle{                                    /*ESTILIZO EL TITULO "REGISTRARSE" */
+    font-family: fantasy; 
+    letter-spacing: 2px;
     text-transform: uppercase;
     color: black;
     font-size: 30px;
