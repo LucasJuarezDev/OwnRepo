@@ -1,0 +1,56 @@
+#include <iostream>
+using namespace std;
+
+class Temporizador{
+private:
+    int _hora;
+    int _minutos;
+    int _segundos;
+
+public:
+    Temporizador(int hora, int minutos, int segundos);
+    int getHora(){return _hora;}
+    int getMinuto(){return _minutos;}
+    int getSegundo(){return _segundos;}
+    void Tic();
+    void mostrar();
+};
+
+    Temporizador::Temporizador(int hora, int minutos, int segundos){   ///constructor
+        _hora = hora;
+        _minutos = minutos;
+        _segundos = segundos;
+    }
+
+    void Temporizador::Tic(){
+        if(_segundos == 60){
+            _segundos = 0;
+            _minutos ++;
+            _segundos ++;
+        }else if(_segundos == 60 && _minutos == 60){
+            _segundos = _minutos = 0;
+            _hora ++;
+            _segundos++;
+            _minutos ++;
+        }else{
+           _segundos ++;
+        }
+
+    }
+
+    void Temporizador::mostrar(){
+        cout << "Hora: " << _hora << "     "  << "Minuto: " << _minutos  << "     "  << "Segundo: " << _segundos << endl;
+    }
+
+int main(){
+    Temporizador temp1(0, 0, 0);
+
+    for(int x = 0 ; x < 3600 ; x ++){
+
+    temp1.Tic();
+
+    }
+    temp1.mostrar();
+
+    return 0;
+}
