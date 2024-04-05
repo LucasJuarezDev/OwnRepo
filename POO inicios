@@ -54,3 +54,31 @@ int main(){
 
     return 0;
 }
+
+
+
+
+/*#include <iostream>
+using namespace std;
+
+int main(){
+   int horas, minutos, segundos;
+
+
+   cin >> segundos;
+   cout << endl;
+
+
+    horas = segundos / 3600;
+    segundos = segundos % 3600;
+
+    minutos = segundos / 60;
+    segundos = segundos % 60;
+
+    cout << horas << endl;
+    cout << minutos << endl;
+    cout << segundos << endl;
+
+    return 0;
+}
+*/
