@@ -1,16 +1,15 @@
 #include <iostream>
-#include <string.h> //AÑADE LA FUNCION STRCPY O STRCMP
+#include <string.h> //AÃ‘ADE LA FUNCION STRCPY O STRCMP
 using namespace std;
 
 
 class Articulo{
 private:
-    string _Codigo;
-    string _Descripcion;
+    char _Codigo[5];
+    char _Descripcion[30];
     float _PrecioUnitario;
     int _Stock;
     bool _Estado;
-    const int Tam = 3;
 
     /*  COMENTARIOS DE CODIGO
 
@@ -19,9 +18,9 @@ private:
     */
 
 public:
-    Articulo(string c = "", string d = "", float p = 0, int s = 0, bool e = false){
-        _Codigo = c;
-        _Descripcion = d;
+    Articulo(const char *c = "", const char *d = "", float p = 0, int s = 0, bool e = false){
+        strcpy(_Codigo, c);
+        strcpy(_Descripcion, d);
         _PrecioUnitario = p;
         _Stock = s;
         _Estado = e;
@@ -29,13 +28,13 @@ public:
     float getArtPU(){return _PrecioUnitario;}
     int getArtSTK() {return _Stock;}
     bool getArtEST(){return _Estado;}
-    string getArtCOD(){return _Codigo;}
-    string getArtDESC(){return _Descripcion;}
+    const char *getArtCOD(){return _Codigo;}
+    const char *getArtDESC(){return _Descripcion;}
     void setArtSTK(int s) {_Stock = s;}
     void setArtPU(float p) {_PrecioUnitario = p;}
     void setArtEST(bool e) {_Estado = e;}
-    void setArtCOD(string c) {_Codigo = c;}
-    void setArtDESC(string d) {_Descripcion = d;}
+    void setArtCOD(const char *c) {strcpy(_Codigo, c);}
+    void setArtDESC(const char *d) {strcpy(_Descripcion, d);}
     void Cargar();
     void Mostrar();
     void CargarVector(Articulo V[], const int Tam);
@@ -67,15 +66,17 @@ void Articulo::MostrarVector(Articulo V[], const int Tam){
 
 void Articulo::Cargar(){
     cout << "introduzca el codigo de articulo: " << endl << endl;
-    cin >> _Codigo;
+    fflush(stdin);
+    cin.getline( _Codigo, 5);
     cout << endl;
     cout << "introduzca su descripcion: " << endl << endl;
-    cin >> _Descripcion;
+    fflush(stdin);
+    cin.getline(_Descripcion, 30);
     cout << endl;
     cout << "introduzca su precio unitario: " << endl << endl;
     cin >> _PrecioUnitario;
     cout << endl;
-    cout << "¿esta disponible este articulo o no? ('1' para SI, '0' para NO): " << endl << endl;
+    cout << "Â¿esta disponible este articulo o no? ('1' para SI, '0' para NO): " << endl << endl;
     cin >> _Estado;
     if(_Estado){
         cout << "introduzca la cantidad de "<< _Descripcion << " que hay disponibles: " << endl << endl;
@@ -86,7 +87,7 @@ void Articulo::Cargar(){
 
 void Articulo::Mostrar(){
     if(getArtEST() == true){
-        system("cls"); //LIMPIA LA ACCION ANTERIOR
+        system("cls");
         cout << "DESCRIPCION: "<< getArtDESC() << endl;
         cout << endl;
         cout << "CODIGO: " << getArtCOD() << endl;
@@ -94,20 +95,72 @@ void Articulo::Mostrar(){
         cout << "PRECIO: $"<< getArtPU() << endl;
         cout << endl;
         cout << "UNIDADES DISPONIBLES: "<< getArtSTK()<< endl;
-        system("pause"); //GUARDA LA ULTIMA ACCION Y PAUSA EN ESE MOMENTO
+
     }else{
         cout << "El articulo " << getArtDESC() << " no se encuentra disponible" << endl;
-        system("pause");
+
 
     }
 }
 
 
 int main(){
-    Articulo obj, v[3];
-    const int T = 3;
+    const int tam = 3;
+    Articulo obj[tam];
+    int opcion;
 
-    obj.CargarVector(v, T);
-    obj.Mostrar();
+
+    /*while (true){
+        system("cls");
+        cout << "MENU PRODUCTOS" << endl;
+        cout << "----------------" << endl;
+        cout << "1) NUEVO PRODUCTO" << endl;
+        cout << "2) LISTAR PRODUCTOS" << endl;
+        cout << "3) LISTAR PRODUCTO x ID" << endl;
+        cout << "---------------------------" << endl;
+        cout << "0) SALIR" << endl;
+
+        cin >> opcion;
+
+        switch(opcion){
+            case 1:
+                {
+                    for(int x = 0; x < tam ; x ++){
+                        obj[x].Cargar();
+                        cout << endl;
+                        system("cls");
+                    }
+                }
+                break;
+            case 2:
+                {
+                   obj.MostrarVector(obj, tam);
+                }
+                break;
+            case 3:
+                {
+
+                }
+                break;
+            default:
+                cout << "OPCION INCORRECTA" << endl;
+            break;
+        }
+
+        system("pause");
+
+    }*/
+      for(int x = 0; x < tam ; x ++){
+        obj[x].Cargar();
+        cout << endl;
+        system("cls");
+    }
+
+      for(int x = 0; x < tam ; x ++){
+        obj[x].Mostrar();
+        cout << endl;
+        system("pause");
+    }
+
     return 0;
 }
