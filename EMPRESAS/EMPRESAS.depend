@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1715280206 source:c:\users\dream\desktop\codeblock proyectos\empresas\main.cpp
+	<iostream>
+	"EmpresaManager.h"
+
+1715279243 c:\users\dream\desktop\codeblock proyectos\empresas\empresa.h
+
+1715280044 source:c:\users\dream\desktop\codeblock proyectos\empresas\empresa.cpp
+	<iostream>
+	"Empresa.h"
+	<string.h>
+
+1715215584 source:c:\users\dream\desktop\codeblock proyectos\empresas\empresaarchivo.cpp
+	"EmpresaArchivo.h"
+	<iostream>
+
+1715280887 c:\users\dream\desktop\codeblock proyectos\empresas\empresaarchivo.h
+	"Empresa.h"
+
+1715283162 source:c:\users\dream\desktop\codeblock proyectos\empresas\empresamanager.cpp
+	<iostream>
+	<string.h>
+	"EmpresaManager.h"
+
+1715281269 c:\users\dream\desktop\codeblock proyectos\empresas\empresamanager.h
+	"Empresa.h"
+	"EmpresaArchivo.h"
+
