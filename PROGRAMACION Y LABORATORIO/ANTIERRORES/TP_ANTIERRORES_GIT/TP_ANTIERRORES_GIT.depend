@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1717285543 source:c:\users\dream\desktop\antierrores\tp_antierrores_git\main.cpp
+	<iostream>
+	"Menus.h"
+
+1717290845 c:\users\dream\desktop\antierrores\tp_antierrores_git\menus.h
+	"PrendaManager.h"
+	"VentaManager.h"
+	<iostream>
+
+1717290266 c:\users\dream\desktop\antierrores\tp_antierrores_git\prendamanager.h
+	"Prenda.h"
+	"PrendaArchivo.h"
+
+1717285875 c:\users\dream\desktop\antierrores\tp_antierrores_git\ventamanager.h
+
+1717288203 source:c:\users\dream\desktop\antierrores\tp_antierrores_git\prenda.cpp
+	"Prenda.h"
+	<cstring>
+
+1717287998 c:\users\dream\desktop\antierrores\tp_antierrores_git\prenda.h
+	<iostream>
+	<string>
+	<cstring>
+
+1717290100 source:c:\users\dream\desktop\antierrores\tp_antierrores_git\prendaarchivo.cpp
+	"PrendaArchivo.h"
+	<iostream>
+
+1717286839 c:\users\dream\desktop\antierrores\tp_antierrores_git\prendaarchivo.h
+	"Prenda.h"
+	<iostream>
+
+1717290761 source:c:\users\dream\desktop\antierrores\tp_antierrores_git\prendamanager.cpp
+	"PrendaManager.h"
+	<iostream>
+
+1717285745 source:c:\users\dream\desktop\antierrores\tp_antierrores_git\venta.cpp
+	"Venta.h"
+
+1717285877 c:\users\dream\desktop\antierrores\tp_antierrores_git\venta.h
+	"Fecha.h"
+	<string>
+	<cstring>
+
+1717285991 c:\users\dream\desktop\antierrores\tp_antierrores_git\fecha.h
+	<iostream>
+	<string>
+
+1717285776 source:c:\users\dream\desktop\antierrores\tp_antierrores_git\ventaarchivo.cpp
+	"VentaArchivo.h"
+	<iostream>
+
+1717285876 c:\users\dream\desktop\antierrores\tp_antierrores_git\ventaarchivo.h
+	"Venta.h"
+	<iostream>
+
+1717285802 source:c:\users\dream\desktop\antierrores\tp_antierrores_git\ventamanager.cpp
+	"VentaManager.h"
+
+1717286054 source:c:\users\dream\desktop\antierrores\tp_antierrores_git\fecha.cpp
+	"Fecha.h"
+	<ctime>
+
