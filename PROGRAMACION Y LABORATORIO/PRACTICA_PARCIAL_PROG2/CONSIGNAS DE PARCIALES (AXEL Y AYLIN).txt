@@ -1,0 +1,13 @@
+///Generar un archivo con los alumnos que participan de equipos de nivel inicial.
+///Cada registro del archivo nuevo debe tener el siguiente formato: 
+
+DNI, nombre, apellido y fecha de inscripción
+//PARCIAL AYLIN
+
+Generar un archivo con los deportes de categoría 5 que tengan más de 50 docentes inscriptos.
+ Cada registro del archivo nuevo debe tener el siguiente formato:
+ Id de deporte, nombre, año de origen y cantidad de alumnos inscriptos// PARCIAL AXEL
+
+Generar un archivo con los no docentes que participan de deportes pertenecientes a la categoría de deporte 3. Cada registro del archivo nuevo debe tener el siguiente formato:
+
+ DNI, nombre, apellido y fecha de inscripción // MI PARCIAL

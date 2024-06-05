@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1717547575 source:c:\users\dream\desktop\practica_parcial_prog2\parcial punto aylin\examen_1\examen_1.cpp
+	<iostream>
+	"auxiliar.h"
+	<cstring>
+
+1717547447 source:c:\users\dream\desktop\practica_parcial_prog2\parcial punto aylin\examen_1\main.cpp
+	<iostream>
+	"auxiliar.h"
+
+1717546951 c:\users\dream\desktop\practica_parcial_prog2\parcial punto aylin\examen_1\examen_1.h
+	<iostream>
+	<cstring>
+
+1717547433 c:\users\dream\desktop\practica_parcial_prog2\parcial punto aylin\examen_1\auxiliar.h
+	"EXAMEN_1.h"
+
