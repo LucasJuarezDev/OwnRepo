@@ -1,0 +1,302 @@
+/*
+paises.dat
+Código de país (char[5)]
+Nombre (char[30])
+Código de continente (1 a 5)
+Nivel de ingreso (1: alto; 2: mediano; 3: mediano alto; 4: mediano bajo; 5: bajo)
+Cantidad de habitantes (int)
+PBI (float)
+Estado(bool)
+
+continentes.dat
+Código de continente (1 a 5)
+Nombre (char[30])
+
+*/
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+class Pais
+{
+protected:
+    char CodPais[5];
+    char Nombre[30];
+    int Habitantes;
+    int NivelIngreso;
+    int CodCont;
+    float PBI;
+    bool PaisExistente;
+public:
+    int getHabitantes(){return Habitantes;}
+    void setHabitantes(int hab){Habitantes = hab;}
+    int getNivelIngreso(){return NivelIngreso;}
+    void setNivelIngreso(int niv){NivelIngreso = niv;}
+    const char *GetNombre(){return Nombre;}
+    void setNombre(const char *nom){strcpy(Nombre, nom);}
+    const char *GetCodPais(){return CodPais;}
+    void setCodPais(const char *codp){strcpy(CodPais, codp);}
+    int getCodCont(){return CodCont;}
+    void setCodCont(int c){CodCont = c;}
+    bool getPaisExistente(){return PaisExistente;}
+    void setPaisExistente(bool pexistente){PaisExistente = pexistente;}
+    float GetPBI(){return PBI;}
+    void SetPBI(float pbi){PBI = pbi;}
+    bool operator == (int num)
+    {
+        if(NivelIngreso == num)
+        {
+            return true;
+        }else
+        {
+            return false;
+        }
+    }
+
+    /*bool operator > (int Num)
+    {
+        if (PBI > Num) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    */
+    void Mostrar()
+    {
+        cout<<CodPais<<endl;
+        cout<<Nombre<<endl;
+        cout<<Habitantes<<endl;
+        cout<<NivelIngreso<<endl;
+        cout<<CodCont<<endl;
+        cout<<PBI<<endl;
+        cout<<PaisExistente<<endl;
+    }
+};
+
+class Continentes
+{
+protected:
+    int CodCont;
+    char Nombre[30];
+    bool Estado;
+public:
+    int getCodCont(){return CodCont;}
+    const char *GetNombre(){return Nombre;}
+    void setCodCont(int c){CodCont = c;}
+    void setNombre(const char *nom){strcpy(Nombre, nom);}
+    void SetEstado(bool est){Estado = est;}
+
+};
+
+class ArchivoPaises
+{
+protected:
+    char nombre[30];
+public:
+    ArchivoPaises(const char *n){
+        strcpy(nombre, n);
+    }
+    Pais leerRegistro(int pos){
+        Pais reg;
+        reg.setPaisExistente(false);
+        FILE *p;
+        p=fopen(nombre, "rb");
+        if(p==NULL) return reg;
+        fseek(p, sizeof reg*pos,0);
+        fread(&reg, sizeof reg,1, p);
+        fclose(p);
+        return reg;
+    }
+    int contarRegistros(){
+        FILE *p;
+        p=fopen(nombre, "rb");
+        if(p==NULL) return -1;
+        fseek(p, 0,2);
+        int tam=ftell(p);
+        fclose(p);
+        return tam/sizeof(Pais);
+    }
+    bool grabarRegistro(Pais reg){
+        FILE *p;
+        p=fopen(nombre, "ab");
+        if(p==NULL) return false;
+        int escribio=fwrite(&reg, sizeof reg,1, p);
+        fclose(p);
+        return escribio;
+    }
+};
+
+
+class ArchivoContinentes{
+protected:
+    char nombre[30];
+public:
+    ArchivoContinentes(const char *n){
+        strcpy(nombre, n);
+    }
+    Continentes leerRegistro(int pos){
+        Continentes reg;
+        reg.SetEstado(false);
+        FILE *p;
+        p=fopen(nombre, "rb");
+        if(p==NULL) return reg;
+        fseek(p, sizeof reg*pos,0);
+        fread(&reg, sizeof reg,1, p);
+        fclose(p);
+        return reg;
+    }
+    int contarRegistros(){
+        FILE *p;
+        p=fopen(nombre, "rb");
+        if(p==NULL) return -1;
+        fseek(p, 0,2);
+        int tam=ftell(p);
+        fclose(p);
+        return tam/sizeof(Continentes);
+    }
+    bool grabarRegistro(Continentes reg){
+        FILE *p;
+        p=fopen(nombre, "ab");
+        if(p==NULL) return false;
+        int escribio=fwrite(&reg, sizeof reg,1, p);
+        fclose(p);
+        return escribio;
+    }
+};
+
+//Calcular e informar el continente con mayor PBI total (entre todos los países con ese continente)
+void Punto1ParcialAxel()
+{
+    ArchivoPaises archPais("paises.dat");
+    ArchivoContinentes archCont("continentes.dat");
+    Pais pais;
+    Continentes cont;
+    float VPBI_DE_CONTINENTES[5]{0};
+    int reg_paises = archPais.contarRegistros();
+    if(reg_paises <= 0){return;}
+
+    for(int x = 0 ; x < reg_paises ; x ++)
+    {
+        pais = archPais.leerRegistro(x);
+
+        VPBI_DE_CONTINENTES[pais.getCodCont() - 1] += pais.GetPBI();
+    }
+
+    float PBI_MAX = VPBI_DE_CONTINENTES[0];
+    int CONT_MAX = 1;
+    for(int x = 0 ; x < 5 ; x ++)
+    {
+        cont = archCont.leerRegistro(x);
+        if(VPBI_DE_CONTINENTES[x] > PBI_MAX)
+        {
+            PBI_MAX = VPBI_DE_CONTINENTES[x];
+            CONT_MAX = cont.getCodCont();
+        }
+    }
+    cout << CONT_MAX;
+}
+
+//Generar un archivo con los países de INGRESO BAJO que pertenecen al continente de nombre Oceanía.
+//El formato de registro debe ser el mismo que el del archivo de países.
+void Punto2ParcialAxel()
+{
+    ArchivoPaises archPais("paises.dat");
+    ArchivoContinentes archCont("continentes.dat");
+    ArchivoPaises archPunto2("punto02.dat");
+    Pais pais;
+    Continentes cont;
+    int Encontro = -1;
+    int reg_pais = archPais.contarRegistros();
+    int reg_continente = archCont.contarRegistros();
+    if(reg_pais <= 0 || reg_continente <= 0){return;}
+
+    for(int x = 0 ; x < reg_continente ; x ++)
+    {
+        cont = archCont.leerRegistro(x);
+        Encontro = strcmp(cont.GetNombre(), "oceania");
+        if(Encontro == 0)
+        {
+            for(int i = 0 ; i < reg_pais ; i ++)
+            {
+                pais = archPais.leerRegistro(i);
+                if(pais == 5)
+                {
+                    archPunto2.grabarRegistro(pais);
+                }
+            }
+        }
+    }
+}
+
+//Listar el archivo nuevo creado usando asignación dinámica de memoria
+void Punto3ParcialAxel()
+{
+    ArchivoPaises archPunto2("punto02.dat");
+    Pais *Vpunto3, paises;
+    int reg_paises = archPunto2.contarRegistros();
+    if(reg_paises <= 0){return;}
+    Vpunto3 = new Pais[reg_paises];
+    if(Vpunto3 == nullptr){return;}
+
+    for(int x = 0 ; x < reg_paises ; x ++)
+    {
+        paises = archPunto2.leerRegistro(x);
+        Vpunto3[x] = paises;
+    }
+
+    for(int x = 0 ; x < reg_paises ; x ++)
+    {
+        Vpunto3[x].Mostrar();
+    }
+}
+
+// PUNTO 4 : APLICADO AL PUNTO 2
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                //PARCIAL AYLIN//
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Calcular e informar los continentes con más de 20 países.
+void Punto1ParcialAylin()
+{
+    ArchivoPaises archPais("paises.dat");
+    int reg_paises = archPais.contarRegistros();
+    Pais paises;
+    int Vpunto1[5]{0};
+    if(reg_paises <= 0){return;}
+
+    for(int x = 0 ; x < 5 ; x ++)
+    {
+        for(int i = 0 ; i < reg_paises ; i ++)
+        {
+            paises = archPais.leerRegistro(i);
+            if(paises.getPaisExistente())
+            {
+                Vpunto1[paises.getCodCont() - 1] ++;
+            }
+        }
+    }
+
+    for(int x = 0 ; x < 5 ; x ++)
+    {
+        if(Vpunto1[x] > 20)
+        {
+            cout << x + 1;
+        }
+    }
+}
+/*Generar un archivo con los países que pertenecen al continente de nombre Africa.
+El formato de registro debe ser el mismo que el del archivo de países.*/
+void Punto2ParcialAylin()
+{
+
+}
+
+int main()
+{
+    return 0;
+}
