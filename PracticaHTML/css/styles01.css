@@ -1,0 +1,133 @@
+/*li{
+	font-size: 20px;
+	text-align: right;   //configuracion de botonera en la cabezera clasica
+	list-style: none;
+	float: right;
+	width: 1cm;
+}*/   
+
+/*=========================================================================================*/
+								/*estilos semanticos*/
+
+body{
+	background: darkslateblue;
+	width: 100%; /*centra todo a lo ancho de la web */
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+header{
+	font-family: 'jersey_m54regular';
+	text-transform: uppercase; /* hace a la etiqueta seleccionada a mayuscula */
+	text-align: center;
+	font-size: 50px;
+}
+hr{
+	width: 70%;
+
+}
+
+/*=========================================================================================*/
+								/*estilo del boton "cotiza ya" */
+.BOTON{
+	
+	font-family: 'jersey_m54regular';
+	text-transform: uppercase;
+	font-size: 50px;
+	background: white;
+	color: darkslateblue;
+	padding: 15px; /* use pading sin especificar directamente ya que necesitaba expandir todos los bordes del texto*/
+	text-decoration: none; /*saca la linea de abajo que llevan los links */
+	border-radius: 10px; /*redondea los bordes del elemento seleccionado */
+}
+.BOTON:hover{
+	background: darkslateblue;
+	color: white;
+	border: 2px solid white; /*borde de 2 pixeles con color blanco */
+}
+
+/*=========================================================================================*/
+								/*clases de divs*/
+.somos1{
+	background-color: white;
+	color: darkslateblue;
+	margin: auto;
+	height: 200px;
+	width: 500px;
+	padding: 15px;
+	margin-top: 80px;
+	border-radius: 20px;
+}
+.somos2{
+	background-color: white;
+	color: darkslateblue;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-top-right-radius: 190px;
+	border-bottom-left-radius: 190px;
+	margin-top: 57px;
+    margin-bottom: 63px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+.somos3{
+	background-color: white;
+    color: darkslateblue;
+    height: 200px;
+    width: 500px;
+    margin-bottom: -260px;
+    border-radius: 20px;
+    position: absolute;
+	left: 530px;
+}
+.somos4{
+	background-color: white;
+    color: darkslateblue;
+    height: 200px;
+    width: 500px;
+    border-radius: 20px;
+	position: relative;
+	top: 330px;
+}
+.footer{
+	padding-top: 400px;
+}
+.div_fiorino{
+	margin-left: 350px;
+	margin-top: 20px;
+	position: absolute;
+	left: -140px;
+}
+.div_jumpy{
+	position: absolute;
+	left: 465px;
+	top: 1322px;
+}
+
+/*=========================================================================================*/
+							/*clases/ids de titulos y subtitulos*/
+#titulos{
+	text-transform: uppercase;
+}
+.subtitulo{
+	text-transform: capitalize;
+	font-weight: 400;
+	font-size: 30px;
+	background: white;
+	color: darkslateblue;
+	margin-bottom: 50px;
+}
+.lineas_divisorias{
+	margin-top: 45px;
+}
+/*=========================================================================================*/
+							/*modificacion de imagenes*/
+.imagen_fiorino{
+	width: 400px;
+	height: 200px;
+}
+.imagen_jumpy{
+	width: 370px;
+	height: 200px;
+}
