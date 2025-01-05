@@ -1,217 +1,217 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\",
+  "WorkspaceRootPath": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formselecartventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\formselecartventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\formventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\formstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\formventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\negocio\\articulovendidonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|solutionrelative:negocio\\articulovendidonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\reportemes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\reportemes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9871F87-EA2D-414B-9892-D63C3FF4480C}|Dominio\\Dominio.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\dominio\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9871F87-EA2D-414B-9892-D63C3FF4480C}|Dominio\\Dominio.csproj|solutionrelative:dominio\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9871F87-EA2D-414B-9892-D63C3FF4480C}|Dominio\\Dominio.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\dominio\\articulovendido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9871F87-EA2D-414B-9892-D63C3FF4480C}|Dominio\\Dominio.csproj|solutionrelative:dominio\\articulovendido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9871F87-EA2D-414B-9892-D63C3FF4480C}|Dominio\\Dominio.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9871F87-EA2D-414B-9892-D63C3FF4480C}|Dominio\\Dominio.csproj|solutionrelative:dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9871F87-EA2D-414B-9892-D63C3FF4480C}|Dominio\\Dominio.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9871F87-EA2D-414B-9892-D63C3FF4480C}|Dominio\\Dominio.csproj|solutionrelative:dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formcargarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\formcargarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9871F87-EA2D-414B-9892-D63C3FF4480C}|Dominio\\Dominio.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9871F87-EA2D-414B-9892-D63C3FF4480C}|Dominio\\Dominio.csproj|solutionrelative:dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|solutionrelative:negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|solutionrelative:negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|c:\\users\\dream\\desktop\\vs - curso de maxi\\sistemagestion\\negocio\\reportesnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|solutionrelative:negocio\\reportesnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\negocio\\ventanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|solutionrelative:negocio\\ventanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\reportemes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\reportemes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\reportesemana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\reportesemana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\reporteshoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\reporteshoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\verarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\verarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\formventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\formstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formselecartventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\formselecartventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\formmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formcargarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\formcargarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\forma\u00F1adirstockbtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\forma\u00F1adirstockbtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\forma\u00F1adirstockbtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\forma\u00F1adirstockbtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\forma\u00F1adirstockbtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\forma\u00F1adirstockbtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\forma\u00F1adirstockbtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\forma\u00F1adirstockbtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formselecartventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\formselecartventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formcargarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\formcargarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\formmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formselecartventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\formselecartventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\formventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\verarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\verarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\verarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\verarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\verarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\verarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\reportesemana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\reportesemana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\reporteshoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\reporteshoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\reporteshoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|c:\\users\\dream\\desktop\\repositoriogit\\ownrepo\\sistemagestion\\sist01\\formselecartventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\formselecartventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\formventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\formventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\formstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\formstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\formventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\formventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\negocio\\articulovendidonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|solutionrelative:negocio\\articulovendidonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\reportemes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\reportemes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9871F87-EA2D-414B-9892-D63C3FF4480C}|Dominio\\Dominio.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\dominio\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9871F87-EA2D-414B-9892-D63C3FF4480C}|Dominio\\Dominio.csproj|solutionrelative:dominio\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9871F87-EA2D-414B-9892-D63C3FF4480C}|Dominio\\Dominio.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\dominio\\articulovendido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9871F87-EA2D-414B-9892-D63C3FF4480C}|Dominio\\Dominio.csproj|solutionrelative:dominio\\articulovendido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9871F87-EA2D-414B-9892-D63C3FF4480C}|Dominio\\Dominio.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9871F87-EA2D-414B-9892-D63C3FF4480C}|Dominio\\Dominio.csproj|solutionrelative:dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9871F87-EA2D-414B-9892-D63C3FF4480C}|Dominio\\Dominio.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9871F87-EA2D-414B-9892-D63C3FF4480C}|Dominio\\Dominio.csproj|solutionrelative:dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\formcargarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\formcargarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9871F87-EA2D-414B-9892-D63C3FF4480C}|Dominio\\Dominio.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9871F87-EA2D-414B-9892-D63C3FF4480C}|Dominio\\Dominio.csproj|solutionrelative:dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|solutionrelative:negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|solutionrelative:negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\negocio\\reportesnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|solutionrelative:negocio\\reportesnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\negocio\\ventanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|solutionrelative:negocio\\ventanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\reportemes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\reportemes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\reportesemana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\reportesemana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\reporteshoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\reporteshoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\verarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\verarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\formventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\formventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\formstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\formstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\formselecartventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\formselecartventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\formmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\formmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\formcargarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\formcargarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\forma\u00F1adirstockbtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\forma\u00F1adirstockbtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\forma\u00F1adirstockbtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\forma\u00F1adirstockbtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\forma\u00F1adirstockbtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\forma\u00F1adirstockbtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\forma\u00F1adirstockbtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\forma\u00F1adirstockbtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\formselecartventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\formselecartventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\formcargarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\formcargarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\formmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\formmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\formselecartventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\formselecartventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\formventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\formventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\verarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\verarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\verarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\verarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\verarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\verarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\reportesemana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\reportesemana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\formstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\formstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\formstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\formstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formcargarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\formcargarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\formcargarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\negocio\\categorianegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\negocio\\categorianegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|solutionrelative:negocio\\categorianegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\negocio\\marcanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\negocio\\marcanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|solutionrelative:negocio\\marcanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\formmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\formmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\formmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\formmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\Front.csproj|solutionrelative:sist01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\negocio\\exportararchivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\negocio\\exportararchivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B484DEA-6F75-41E7-902E-C80B97409173}|Negocio\\Negocio.csproj|solutionrelative:negocio\\exportararchivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DA8CC3E-66AB-4DA1-9DCD-2F1F0BBD7B2C}|sist01\\sist01.csproj|solutionrelative:sist01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -222,7 +222,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -232,48 +232,45 @@
               "$type": "Document",
               "DocumentIndex": 42,
               "Title": "FormStock.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormStock.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormStock.cs",
               "RelativeDocumentMoniker": "sist01\\FormStock.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormStock.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormStock.cs",
               "RelativeToolTip": "sist01\\FormStock.cs",
               "ViewState": "AQIAAFcAAAAAAAAAAAAmwDMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T23:08:54.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T23:08:54.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "FormCargarArt.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormCargarArt.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormCargarArt.cs",
               "RelativeDocumentMoniker": "sist01\\FormCargarArt.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormCargarArt.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormCargarArt.cs",
               "RelativeToolTip": "sist01\\FormCargarArt.cs",
               "ViewState": "AQIAAI0AAAAAAAAAAAAIwKUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T00:44:18.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T00:44:18.87Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ReporteMes.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\ReporteMes.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\ReporteMes.cs",
               "RelativeDocumentMoniker": "sist01\\ReporteMes.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\ReporteMes.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\ReporteMes.cs",
               "RelativeToolTip": "sist01\\ReporteMes.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T23:46:02.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T23:46:02.953Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "FormA\u00F1adirStockBTN.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormA\u00F1adirStockBTN.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormA\u00F1adirStockBTN.cs",
               "RelativeDocumentMoniker": "sist01\\FormA\u00F1adirStockBTN.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormA\u00F1adirStockBTN.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormA\u00F1adirStockBTN.cs",
               "RelativeToolTip": "sist01\\FormA\u00F1adirStockBTN.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAAAC0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -281,49 +278,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FormVenta.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormVenta.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormVenta.cs",
               "RelativeDocumentMoniker": "sist01\\FormVenta.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormVenta.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormVenta.cs",
               "RelativeToolTip": "sist01\\FormVenta.cs",
               "ViewState": "AQIAAI4BAAAAAAAAAAAAAIsAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T22:35:50.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T22:35:50.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ReporteMes.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\ReporteMes.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\ReporteMes.cs",
               "RelativeDocumentMoniker": "sist01\\ReporteMes.cs",
               "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\ReporteMes.cs [Dise\u00F1o]",
-              "RelativeToolTip": "sist01\\ReporteMes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\VS - Curso de Maxi\\SistemaGestion\\sist01\\ReporteMes.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T23:32:44.786Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-18T23:32:44.786Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ReportesNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Negocio\\ReportesNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Negocio\\ReportesNegocio.cs",
               "RelativeDocumentMoniker": "Negocio\\ReportesNegocio.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Negocio\\ReportesNegocio.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Negocio\\ReportesNegocio.cs",
               "RelativeToolTip": "Negocio\\ReportesNegocio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T01:28:55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T01:28:55Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 51,
               "Title": "ExportarArchivos.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Negocio\\ExportarArchivos.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Negocio\\ExportarArchivos.cs",
               "RelativeDocumentMoniker": "Negocio\\ExportarArchivos.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Negocio\\ExportarArchivos.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Negocio\\ExportarArchivos.cs",
               "RelativeToolTip": "Negocio\\ExportarArchivos.cs",
               "ViewState": "AQIAAGMAAAAAAAAAAAAmwG4AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -331,11 +325,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "ReporteSemana.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\ReporteSemana.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\ReporteSemana.cs",
               "RelativeDocumentMoniker": "sist01\\ReporteSemana.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\ReporteSemana.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\ReporteSemana.cs",
               "RelativeToolTip": "sist01\\ReporteSemana.cs",
               "ViewState": "AQIAAHQAAAAAAAAAAAAAwIgAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -343,47 +337,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ReporteSemana.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\ReporteSemana.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\ReporteSemana.cs",
               "RelativeDocumentMoniker": "sist01\\ReporteSemana.cs",
               "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\ReporteSemana.cs [Dise\u00F1o]",
-              "RelativeToolTip": "sist01\\ReporteSemana.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\VS - Curso de Maxi\\SistemaGestion\\sist01\\ReporteSemana.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T21:43:22.116Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 0,
               "Title": "ReportesHoy.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\ReportesHoy.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\ReportesHoy.cs",
               "RelativeDocumentMoniker": "sist01\\ReportesHoy.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\ReportesHoy.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\ReportesHoy.cs",
               "RelativeToolTip": "sist01\\ReportesHoy.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAswEkAAAAAAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAADwv0kAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T00:12:19.26Z"
+              "WhenOpened": "2024-10-13T00:12:19.26Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ReportesHoy.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\ReportesHoy.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\ReportesHoy.cs",
               "RelativeDocumentMoniker": "sist01\\ReportesHoy.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\ReportesHoy.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\ReportesHoy.cs [Dise\u00F1o]",
               "RelativeToolTip": "sist01\\ReportesHoy.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T21:27:09.7Z"
+              "WhenOpened": "2024-10-10T21:27:09.7Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FormSelecArtVenta.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormSelecArtVenta.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormSelecArtVenta.cs",
               "RelativeDocumentMoniker": "sist01\\FormSelecArtVenta.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormSelecArtVenta.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormSelecArtVenta.cs",
               "RelativeToolTip": "sist01\\FormSelecArtVenta.cs",
-              "ViewState": "AQIAAMwAAAAAAAAAAAAkwOgAAAAUAAAA",
+              "ViewState": "AQIAAMwAAAAAAAAAAAA3wOgAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T00:43:00.211Z",
               "EditorCaption": ""
@@ -392,9 +388,9 @@
               "$type": "Document",
               "DocumentIndex": 50,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\Program.cs",
               "RelativeDocumentMoniker": "sist01\\Program.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\Program.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\Program.cs",
               "RelativeToolTip": "sist01\\Program.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAUwA8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -402,23 +398,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "FormSelecArtVenta.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormSelecArtVenta.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormSelecArtVenta.cs",
               "RelativeDocumentMoniker": "sist01\\FormSelecArtVenta.cs",
               "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormSelecArtVenta.cs [Dise\u00F1o]",
-              "RelativeToolTip": "sist01\\FormSelecArtVenta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormSelecArtVenta.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T01:15:05.361Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-12T01:15:05.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "FormPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "sist01\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormPrincipal.cs",
               "RelativeToolTip": "sist01\\FormPrincipal.cs",
               "ViewState": "AQIAAEYAAAAAAAAAAAAUwFkAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -426,23 +421,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "FormVenta.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormVenta.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormVenta.cs",
               "RelativeDocumentMoniker": "sist01\\FormVenta.cs",
               "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormVenta.cs [Dise\u00F1o]",
-              "RelativeToolTip": "sist01\\FormVenta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormVenta.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T21:30:07.302Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-10T21:30:07.302Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "VerArticulos.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\VerArticulos.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\VerArticulos.cs",
               "RelativeDocumentMoniker": "sist01\\VerArticulos.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\VerArticulos.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\VerArticulos.cs",
               "RelativeToolTip": "sist01\\VerArticulos.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAgwDcAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -450,23 +444,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FormStock.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormStock.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormStock.cs",
               "RelativeDocumentMoniker": "sist01\\FormStock.cs",
               "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormStock.cs [Dise\u00F1o]",
-              "RelativeToolTip": "sist01\\FormStock.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormStock.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T23:08:55.027Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-09T23:08:55.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "VentaNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Negocio\\VentaNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Negocio\\VentaNegocio.cs",
               "RelativeDocumentMoniker": "Negocio\\VentaNegocio.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Negocio\\VentaNegocio.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Negocio\\VentaNegocio.cs",
               "RelativeToolTip": "Negocio\\VentaNegocio.cs",
               "ViewState": "AQIAADAAAAAAAAAAAAAowB4AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -474,24 +467,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "FormCargarArt.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormCargarArt.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormCargarArt.cs",
               "RelativeDocumentMoniker": "sist01\\FormCargarArt.cs",
               "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormCargarArt.cs [Dise\u00F1o]",
-              "RelativeToolTip": "sist01\\FormCargarArt.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormCargarArt.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T23:28:03.181Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-08T23:28:03.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "FormPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "sist01\\FormPrincipal.cs",
               "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "sist01\\FormPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T23:28:03.419Z"
             },
@@ -499,9 +491,9 @@
               "$type": "Document",
               "DocumentIndex": 47,
               "Title": "FormModificar.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormModificar.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormModificar.cs",
               "RelativeDocumentMoniker": "sist01\\FormModificar.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormModificar.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormModificar.cs",
               "RelativeToolTip": "sist01\\FormModificar.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAxwBkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -509,44 +501,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "FormModificar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormModificar.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormModificar.cs",
               "RelativeDocumentMoniker": "sist01\\FormModificar.cs",
               "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormModificar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "sist01\\FormModificar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormModificar.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T23:28:03.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "VerArticulos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\VerArticulos.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\VerArticulos.cs",
               "RelativeDocumentMoniker": "sist01\\VerArticulos.cs",
               "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\VerArticulos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "sist01\\VerArticulos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\VS - Curso de Maxi\\SistemaGestion\\sist01\\VerArticulos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T23:28:03.781Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "FormA\u00F1adirStockBTN.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormA\u00F1adirStockBTN.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormA\u00F1adirStockBTN.cs",
               "RelativeDocumentMoniker": "sist01\\FormA\u00F1adirStockBTN.cs",
               "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormA\u00F1adirStockBTN.cs [Dise\u00F1o]",
-              "RelativeToolTip": "sist01\\FormA\u00F1adirStockBTN.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormA\u00F1adirStockBTN.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T23:28:04.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "FormSelecArtVenta.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormSelecArtVenta.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormSelecArtVenta.cs",
               "RelativeDocumentMoniker": "sist01\\FormSelecArtVenta.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormSelecArtVenta.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormSelecArtVenta.cs",
               "RelativeToolTip": "sist01\\FormSelecArtVenta.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAAgwHMAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -554,37 +546,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ArticuloVendidoNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Negocio\\ArticuloVendidoNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Negocio\\ArticuloVendidoNegocio.cs",
               "RelativeDocumentMoniker": "Negocio\\ArticuloVendidoNegocio.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Negocio\\ArticuloVendidoNegocio.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Negocio\\ArticuloVendidoNegocio.cs",
               "RelativeToolTip": "Negocio\\ArticuloVendidoNegocio.cs",
               "ViewState": "AQIAANsAAAAAAAAAAAAuwBkAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T15:24:17.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T15:24:17.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ArticuloVendido.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Dominio\\ArticuloVendido.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Dominio\\ArticuloVendido.cs",
               "RelativeDocumentMoniker": "Dominio\\ArticuloVendido.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Dominio\\ArticuloVendido.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Dominio\\ArticuloVendido.cs",
               "RelativeToolTip": "Dominio\\ArticuloVendido.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T15:21:05.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T15:21:05.423Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "VerArticulos.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\VerArticulos.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\VerArticulos.cs",
               "RelativeDocumentMoniker": "sist01\\VerArticulos.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\VerArticulos.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\VerArticulos.cs",
               "RelativeToolTip": "sist01\\VerArticulos.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAgwDcAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -592,11 +582,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FormVenta.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormVenta.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormVenta.cs",
               "RelativeDocumentMoniker": "sist01\\FormVenta.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormVenta.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormVenta.cs",
               "RelativeToolTip": "sist01\\FormVenta.cs",
               "ViewState": "AQIAAHUAAAAAAAAAAAAAAIsAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -604,35 +594,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AccesoDatos.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Negocio\\AccesoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Negocio\\AccesoDatos.cs",
               "RelativeDocumentMoniker": "Negocio\\AccesoDatos.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Negocio\\AccesoDatos.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Negocio\\AccesoDatos.cs",
               "RelativeToolTip": "Negocio\\AccesoDatos.cs",
               "ViewState": "AQIAAEYAAAAAAAAAAAAcwHgAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T17:39:11.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T17:39:11.79Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "FormSelecArtVenta.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormSelecArtVenta.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormSelecArtVenta.cs",
               "RelativeDocumentMoniker": "sist01\\FormSelecArtVenta.cs",
               "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormSelecArtVenta.cs [Dise\u00F1o]",
-              "RelativeToolTip": "sist01\\FormSelecArtVenta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormSelecArtVenta.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T13:48:16.77Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "FormA\u00F1adirStockBTN.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormA\u00F1adirStockBTN.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormA\u00F1adirStockBTN.cs",
               "RelativeDocumentMoniker": "sist01\\FormA\u00F1adirStockBTN.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormA\u00F1adirStockBTN.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormA\u00F1adirStockBTN.cs",
               "RelativeToolTip": "sist01\\FormA\u00F1adirStockBTN.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAAAC0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -640,46 +629,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "FormA\u00F1adirStockBTN.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormA\u00F1adirStockBTN.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormA\u00F1adirStockBTN.cs",
               "RelativeDocumentMoniker": "sist01\\FormA\u00F1adirStockBTN.cs",
               "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormA\u00F1adirStockBTN.cs [Dise\u00F1o]",
-              "RelativeToolTip": "sist01\\FormA\u00F1adirStockBTN.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormA\u00F1adirStockBTN.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T02:35:57.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "FormVenta.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormVenta.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormVenta.cs",
               "RelativeDocumentMoniker": "sist01\\FormVenta.cs",
               "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormVenta.cs [Dise\u00F1o]",
-              "RelativeToolTip": "sist01\\FormVenta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormVenta.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-14T16:20:21.666Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Venta.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Dominio\\Venta.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Dominio\\Venta.cs",
               "RelativeDocumentMoniker": "Dominio\\Venta.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Dominio\\Venta.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Dominio\\Venta.cs",
               "RelativeToolTip": "Dominio\\Venta.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAADwvxMAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T16:14:35.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T16:14:35.42Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 48,
               "Title": "FormModificar.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormModificar.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormModificar.cs",
               "RelativeDocumentMoniker": "sist01\\FormModificar.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormModificar.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormModificar.cs",
               "RelativeToolTip": "sist01\\FormModificar.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAxwBkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -689,9 +677,9 @@
               "$type": "Document",
               "DocumentIndex": 43,
               "Title": "FormStock.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormStock.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormStock.cs",
               "RelativeDocumentMoniker": "sist01\\FormStock.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormStock.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormStock.cs",
               "RelativeToolTip": "sist01\\FormStock.cs",
               "ViewState": "AQIAAFcAAAAAAAAAAAAmwDMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -699,34 +687,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "FormStock.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormStock.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormStock.cs",
               "RelativeDocumentMoniker": "sist01\\FormStock.cs",
               "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormStock.cs [Dise\u00F1o]",
-              "RelativeToolTip": "sist01\\FormStock.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormStock.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T22:40:58.535Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "FormModificar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormModificar.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormModificar.cs",
               "RelativeDocumentMoniker": "sist01\\FormModificar.cs",
               "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormModificar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "sist01\\FormModificar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormModificar.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T22:07:41.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "VerArticulos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\VerArticulos.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\VerArticulos.cs",
               "RelativeDocumentMoniker": "sist01\\VerArticulos.cs",
               "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\VerArticulos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "sist01\\VerArticulos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\VS - Curso de Maxi\\SistemaGestion\\sist01\\VerArticulos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T20:14:37.783Z"
             },
@@ -734,9 +722,9 @@
               "$type": "Document",
               "DocumentIndex": 45,
               "Title": "CategoriaNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Negocio\\CategoriaNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Negocio\\CategoriaNegocio.cs",
               "RelativeDocumentMoniker": "Negocio\\CategoriaNegocio.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Negocio\\CategoriaNegocio.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Negocio\\CategoriaNegocio.cs",
               "RelativeToolTip": "Negocio\\CategoriaNegocio.cs",
               "ViewState": "AQIAAE8AAAAAAAAAAAAQwGsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -744,24 +732,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Dominio\\Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Dominio\\Categoria.cs",
               "RelativeDocumentMoniker": "Dominio\\Categoria.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Dominio\\Categoria.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Dominio\\Categoria.cs",
               "RelativeToolTip": "Dominio\\Categoria.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T21:23:55.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-06T21:23:55.425Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 46,
               "Title": "MarcaNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Negocio\\MarcaNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Negocio\\MarcaNegocio.cs",
               "RelativeDocumentMoniker": "Negocio\\MarcaNegocio.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Negocio\\MarcaNegocio.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Negocio\\MarcaNegocio.cs",
               "RelativeToolTip": "Negocio\\MarcaNegocio.cs",
               "ViewState": "AQIAAFcAAAAAAAAAAAAwwGcAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -769,24 +756,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ArticuloNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Negocio\\ArticuloNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Negocio\\ArticuloNegocio.cs",
               "RelativeDocumentMoniker": "Negocio\\ArticuloNegocio.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Negocio\\ArticuloNegocio.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Negocio\\ArticuloNegocio.cs",
               "RelativeToolTip": "Negocio\\ArticuloNegocio.cs",
               "ViewState": "AQIAAIgAAAAAAAAAAAAAAKUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T17:48:35.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T17:48:35.794Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 44,
               "Title": "FormCargarArt.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormCargarArt.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormCargarArt.cs",
               "RelativeDocumentMoniker": "sist01\\FormCargarArt.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormCargarArt.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormCargarArt.cs",
               "RelativeToolTip": "sist01\\FormCargarArt.cs",
               "ViewState": "AQIAAGQAAAAAAAAAAAASwHkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -794,38 +780,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Marca.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Dominio\\Marca.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Dominio\\Marca.cs",
               "RelativeDocumentMoniker": "Dominio\\Marca.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Dominio\\Marca.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Dominio\\Marca.cs",
               "RelativeToolTip": "Dominio\\Marca.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T16:19:45.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T16:19:45.76Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Articulo.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Dominio\\Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Dominio\\Articulo.cs",
               "RelativeDocumentMoniker": "Dominio\\Articulo.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\Dominio\\Articulo.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\Dominio\\Articulo.cs",
               "RelativeToolTip": "Dominio\\Articulo.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAA3wB4AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T16:19:33.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T16:19:33.04Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "FormCargarArt.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormCargarArt.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormCargarArt.cs",
               "RelativeDocumentMoniker": "sist01\\FormCargarArt.cs",
               "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormCargarArt.cs [Dise\u00F1o]",
-              "RelativeToolTip": "sist01\\FormCargarArt.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormCargarArt.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-12T22:11:33.402Z"
             },
@@ -833,9 +817,9 @@
               "$type": "Document",
               "DocumentIndex": 52,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\Program.cs",
               "RelativeDocumentMoniker": "sist01\\Program.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\Program.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\Program.cs",
               "RelativeToolTip": "sist01\\Program.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAUwA8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -845,9 +829,9 @@
               "$type": "Document",
               "DocumentIndex": 49,
               "Title": "FormPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "sist01\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormPrincipal.cs",
               "RelativeToolTip": "sist01\\FormPrincipal.cs",
               "ViewState": "AQIAAEYAAAAAAAAAAAAUwFkAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -855,12 +839,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "FormPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\dream\\Desktop\\RepositorioGit\\OwnRepo\\SistemaGestion\\sist01\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "sist01\\FormPrincipal.cs",
               "ToolTip": "C:\\Users\\dream\\Desktop\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "sist01\\FormPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\VS - Curso de Maxi\\SistemaGestion\\sist01\\FormPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T20:42:36.885Z"
             }
