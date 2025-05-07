@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1717630696 source:c:\users\lucas\onedrive\escritorio\hola\codeblock proyectos\fecha_actual\main.cpp
+	<iostream>
+	"Fecha_actual.h"
+
+1717630013 source:c:\users\lucas\onedrive\escritorio\hola\codeblock proyectos\fecha_actual\fecha_actual.cpp
+	"Fecha_actual.h"
+	<iostream>
+	<ctime>
+
+1717629769 c:\users\lucas\onedrive\escritorio\hola\codeblock proyectos\fecha_actual\fecha_actual.h
+
