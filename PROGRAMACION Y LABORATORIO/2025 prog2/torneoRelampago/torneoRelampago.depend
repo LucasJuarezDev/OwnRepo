@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1742775436 source:c:\users\dream\desktop\codeblock proyectos\2025 prog2\torneorelampago\main.cpp
+	<iostream>
+	"Puntos.h"
+
+1742775566 source:c:\users\dream\desktop\codeblock proyectos\2025 prog2\torneorelampago\puntos.cpp
+	"Puntos.h"
+
+1742775316 c:\users\dream\desktop\codeblock proyectos\2025 prog2\torneorelampago\puntos.h
+	<iostream>
+	<cstdlib>
+

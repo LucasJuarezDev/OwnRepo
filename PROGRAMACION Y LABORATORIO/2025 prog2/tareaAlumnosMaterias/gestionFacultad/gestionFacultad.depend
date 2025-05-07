@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1745442085 source:c:\users\dream\desktop\codeblock proyectos\2025 prog2\tareaalumnosmaterias\gestionfacultad\main.cpp
+	<iostream>
+	"menuUTN.h"
+
+1745520026 c:\users\dream\desktop\codeblock proyectos\2025 prog2\tareaalumnosmaterias\gestionfacultad\menuutn.h
+	<iostream>
+	<cstdlib>
+	"managerMateria.h"
+
+1745446278 source:c:\users\dream\desktop\codeblock proyectos\2025 prog2\tareaalumnosmaterias\gestionfacultad\materia.cpp
+	"materia.h"
+	<cstring>
+
+1745446931 c:\users\dream\desktop\codeblock proyectos\2025 prog2\tareaalumnosmaterias\gestionfacultad\materia.h
+
+1745518890 source:c:\users\dream\desktop\codeblock proyectos\2025 prog2\tareaalumnosmaterias\gestionfacultad\archivomateria.cpp
+	"archivoMateria.h"
+	<cstring>
+	<iostream>
+
+1745518698 c:\users\dream\desktop\codeblock proyectos\2025 prog2\tareaalumnosmaterias\gestionfacultad\archivomateria.h
+	"materia.h"
+
+1745520040 c:\users\dream\desktop\codeblock proyectos\2025 prog2\tareaalumnosmaterias\gestionfacultad\managermateria.h
+	"archivoMateria.h"
+
+1745520511 source:c:\users\dream\desktop\codeblock proyectos\2025 prog2\tareaalumnosmaterias\gestionfacultad\managermateria.cpp
+	"managerMateria.h"
+	<iostream>
+	<cstring>
+

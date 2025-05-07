@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1745100147 source:c:\users\dream\desktop\codeblock proyectos\2025 prog2\postulantepoo\main.cpp
+	<iostream>
+	"PuestoManager.h"
+	"PersonaManager.h"
+
+1744570660 source:c:\users\dream\desktop\codeblock proyectos\2025 prog2\postulantepoo\puesto.cpp
+	"Puesto.h"
+	<cstring>
+
+1744890346 c:\users\dream\desktop\codeblock proyectos\2025 prog2\postulantepoo\puesto.h
+	<iostream>
+	<string>
+	<cstring>
+
+1745099707 source:c:\users\dream\desktop\codeblock proyectos\2025 prog2\postulantepoo\puestoarchivo.cpp
+	"PuestoArchivo.h"
+
+1745099656 c:\users\dream\desktop\codeblock proyectos\2025 prog2\postulantepoo\puestoarchivo.h
+	"Puesto.h"
+
+1744893502 source:c:\users\dream\desktop\codeblock proyectos\2025 prog2\postulantepoo\persona.cpp
+	"Persona.h"
+	<cstring>
+
+1744893436 c:\users\dream\desktop\codeblock proyectos\2025 prog2\postulantepoo\persona.h
+	<iostream>
+	<string>
+	<cstring>
+	"Puesto.h"
+
+1745099767 source:c:\users\dream\desktop\codeblock proyectos\2025 prog2\postulantepoo\puestomanager.cpp
+	"PuestoManager.h"
+	<iostream>
+
+1744909292 c:\users\dream\desktop\codeblock proyectos\2025 prog2\postulantepoo\puestomanager.h
+	"PuestoArchivo.h"
+	"Puesto.h"
+
+1745099184 source:c:\users\dream\desktop\codeblock proyectos\2025 prog2\postulantepoo\personaarchivo.cpp
+	"PersonaArchivo.h"
+
+1745099101 c:\users\dream\desktop\codeblock proyectos\2025 prog2\postulantepoo\personaarchivo.h
+	"Persona.h"
+
+1745099329 source:c:\users\dream\desktop\codeblock proyectos\2025 prog2\postulantepoo\personamanager.cpp
+	"PersonaManager.h"
+	<iostream>
+
+1745096973 c:\users\dream\desktop\codeblock proyectos\2025 prog2\postulantepoo\personamanager.h
+	"PersonaArchivo.h"
+	"PuestoArchivo.h"
+	"PuestoManager.h"
+	"Persona.h"
+
