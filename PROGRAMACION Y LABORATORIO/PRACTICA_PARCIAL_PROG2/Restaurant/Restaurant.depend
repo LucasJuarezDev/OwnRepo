@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1746739990 source:c:\users\lucas\downloads\restaurant\archivoserviciomesa.cpp
+	"Fecha.h"
+	"ArchivoServicioMesa.h"
+
+1746739991 c:\users\lucas\downloads\restaurant\fecha.h
+	<string>
+
+1746739990 c:\users\lucas\downloads\restaurant\archivoserviciomesa.h
+	<string>
+	"ServicioMesa.h"
+
+1746739991 c:\users\lucas\downloads\restaurant\serviciomesa.h
+	"Fecha.h"
+
+1746739991 source:c:\users\lucas\downloads\restaurant\fecha.cpp
+	"Fecha.h"
+
+1746744670 source:c:\users\lucas\downloads\restaurant\main.cpp
+	"Examen.h"
+
+1746746690 c:\users\lucas\downloads\restaurant\examen.h
+	"ServicioMesa.h"
+
+1746739991 source:c:\users\lucas\downloads\restaurant\serviciomesa.cpp
+	"ServicioMesa.h"
+
+1746746335 source:c:\users\lucas\downloads\restaurant\examen.cpp
+	<iostream>
+	"Examen.h"
+	"ServicioMesa.h"
+	"ArchivoServicioMesa.h"
+
