@@ -11,37 +11,56 @@ using namespace std;
 #include <cstring>
 
 
-void ParcialManager :: Resolver1()
+void ParcialManager :: mostrarJugadores()
 {
-    ArchivoEquipos arch_eq("equipos.dat");
-    ArchivoJugadores arch_jug("jugadores.dat");
+    ArchivoJugadores arch("jugadores.dat");
+    int reg = arch.contarRegistros();
+    Jugador obj;
+
+    for(int x = 0 ; x < reg ; x ++){
+        obj = arch.leerRegistro(x);
+        cout << "++++++++++++++" << endl;
+        obj.Mostrar();
+        cout << "++++++++++++++" << endl;
+    }
+}
+
+void ParcialManager :: mostrarEquipos()
+{
+    ArchivoEquipos arch("equipos.dat");
+    int reg = arch.contarRegistros();
+    Equipo obj;
+
+    for(int x = 0 ; x < reg ; x ++){
+        obj = arch.leerRegistro(x);
+        cout << "++++++++++++++" << endl;
+        obj.Mostrar();
+        cout << "++++++++++++++" << endl;
+    }
+}
+
+
+
+void ParcialManager :: Punto1()
+{
+    ArchivoJugadores archjug("jugadores.dat");
+    ArchivoJugadores archPunto1("jugadores_equipo_uno.dat");
+    ArchivoJugadores jugadoresEquipo4("jugadores_equipo_cuatro.dat");
+    int regJug = archjug.contarRegistros();
     Jugador jug;
-    Equipo equipo;
-    int cant_alumnos;
-    int cantidad = arch_jug.contarRegistros();
 
-    if(cantidad > 0)
+    for(int x = 0 ; x < regJug ; x ++)
     {
-        for(int x = 0 ; x < cantidad ; x ++)
-        {
-            jug = arch_jug.leerRegistro(x);
-            if(jug.getClaustro() == 2)
-            {
-                cant_alumnos ++;
-            }
-        }
+        jug = archjug.leerRegistro(x);
 
-        for(int x = 0 ; x < cant_alumnos ; x ++)
+        if(jug.getIdEquipo() == 4)
         {
-            equipo = arch_eq.leerRegistro(x);
-            jug = arch_jug.leerRegistro(x);
-
-            if(jug.getIdEquipo() == equipo.getIdEquipo() && equipo.getNivel() == 1)
+            if(jugadoresEquipo4.grabarRegistro(jug))
             {
-                cout << "DNI: " << jug.getDNI() << endl;
-                cout << "NOMBRE: " << jug.getNombre() << endl;
-                cout << "APELLIDO: " << jug.getApellido() << endl;
-                jug.getFechaInscirpcion().Mostrar();
+                cout << "SE GUARDO EL REGISTRO!" << endl;
+            }else
+            {
+                cout << "ERROR." << endl;
             }
         }
     }

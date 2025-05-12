@@ -5,7 +5,9 @@
 class ParcialManager
 {
 public:
-    void Resolver1();
+    void mostrarJugadores();
+    void mostrarEquipos();
+    void Punto1();
 };
 
 #endif // AUXILIAR_H_INCLUDED

@@ -6,6 +6,6 @@ using namespace std;
 int main()
 {
     ParcialManager obj;
-    obj.Resolver1();
+    obj.mostrarJugadores();
     return 0;
 }

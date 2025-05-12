@@ -78,14 +78,14 @@ public:
    void setEstado(bool e){estado=e;}
 
    void Mostrar(){
-        cout<<DNI<<endl;
-        cout<<nombre<<endl;
-        cout<<apellido<<endl;
-        cout<<email<<endl;
-        cout<<telefono<<endl;
-        cout<<claustro<<endl;
-        cout<<idDeporte<<endl;
-        cout<<idEquipo<<endl;
+        cout<<"DNI: " <<DNI<<endl;
+        cout<<"NOMBRE: " <<nombre<<endl;
+        cout<<"APELLIDO: " <<apellido<<endl;
+        cout<<"EMAIL: " <<email<<endl;
+        cout<<"TELEFONO: " <<telefono<<endl;
+        cout<<"CLAUSTRO: " <<claustro<<endl;
+        cout<<"NUM DEPORTE: " <<idDeporte<<endl;
+        cout<<"NUM EQUIPO: " <<idEquipo<<endl;
         inscripcion.Mostrar();
         cout<<matricula<<endl;
    }
@@ -140,9 +140,9 @@ public:
 
     void setEstado(bool e){estado=e;}
     void Mostrar(){
-        cout<<IdEquipo<<endl;
-        cout<<nombre<<endl;
-        cout<<nivel<<endl;
+        cout<<"ID: " <<IdEquipo<<endl;
+        cout<<"EQUIPO: " <<nombre<<endl;
+        cout<<"NIVEL: " << nivel<<endl;
    }
 };
 

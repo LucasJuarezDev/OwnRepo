@@ -17,105 +17,103 @@ void Examen::EjemploDeListado(){
 }
 
 void Examen::Punto1(){
-    float promedio = calcularPromedio();
     ArchivoServicioMesa arch("restaurant.dat");
     ServicioMesa obj;
-    int cantidad = arch.CantidadRegistros();
-    int punto1 = 0;
+    int registros = arch.CantidadRegistros();
+    float promedio = 0, resultado;
+    int serviciosMayores = 0;
 
-    for(int x = 0 ; x < cantidad ; x ++){
+    for(int x = 0 ; x < registros ; x ++){
         obj = arch.Leer(x);
-        if(obj.getPuntajeObtenido() > promedio)
-        {
-            punto1 ++;
+        promedio += obj.getPuntajeObtenido();
+    }
+    resultado = promedio / registros;
+
+    for(int x = 0 ; x < registros ; x ++){
+        obj = arch.Leer(x);
+
+        if(obj.getPuntajeObtenido() > resultado){
+            serviciosMayores ++;
         }
     }
-    cout << "==============================" << endl;
-    cout << "RESULTADO: " << punto1 << endl;
+    cout << "================================" << endl;
+    cout << "PUNTO 1: " << serviciosMayores << endl;
+    cout << "================================" << endl;
+    cout << endl;
 }
 
 void Examen::Punto2(){
     ArchivoServicioMesa arch("restaurant.dat");
-    bool flag = false;
     ServicioMesa obj;
-    int cantidad = arch.CantidadRegistros();
+    int registros = arch.CantidadRegistros();
+    float importeXplato[70] = {};
     float importeMayor = 0;
     int platoMayor = 0;
+    bool flag = false;
 
+    for(int x = 0 ; x < registros ; x ++){
+    obj = arch.Leer(x);
+    importeXplato[obj.getIDPlato() - 1] += obj.getImporte();
+    }
 
-    for(int x = 0 ; x < cantidad ; x ++){
-        obj = arch.Leer(x);
+   for(int x = 0 ; x < 70 ; x ++){
         if(!flag){
-            importeMayor = obj.getImporte();
-            platoMayor = obj.getIDPlato();
+            importeMayor = importeXplato[x];
+            platoMayor = x + 1;
             flag = true;
-        }else if (obj.getImporte() >= importeMayor)
-        {
-            importeMayor = obj.getImporte();
-            platoMayor = obj.getIDPlato();
+        }
+
+        if(importeXplato[x] >= importeMayor){
+            importeMayor = importeXplato[x];
+            platoMayor = x + 1;
         }
     }
-    cout << "***********************************************" << endl;
-    cout << "***********************************************" << endl;
-    cout << "EL PLATO MAYOR ES N." << platoMayor << endl;
-    cout << "***********************************************" << endl;
-    cout << "***********************************************" << endl;
+
+    cout << "================================" << endl;
+    cout << "PUNTO 2: " << platoMayor << endl;
+    cout << "================================" << endl;
+    cout << endl;
+
+}
+
+void Examen::inicializarVector(float *v, int tam){
+    for(int x = 0 ; x < tam ; x ++){
+        v[x] = 0;
+    }
 }
 
 void Examen::Punto3(){
     ArchivoServicioMesa arch("restaurant.dat");
     ServicioMesa obj;
-    int cantidad = arch.CantidadRegistros();
-    float mayor = 0;
-    int mozoRico = 0;
+    int registros = arch.CantidadRegistros();
+    float propinaXmozo[20] = {};
+    inicializarVector(propinaXmozo, 20);
     bool flag = false;
-    float *propinas;
-    propinas = new float[cantidad];
-    if(propinas == nullptr)
-    {
-        return;
+    int mozoRico = 0;
+    float propinaMayor = 0;
+
+    for(int x = 0 ; x < registros ; x ++){
+        obj = arch.Leer(x);
+        if(obj.getFecha().getAnio() == 2024)
+        propinaXmozo[obj.getIDMozo() - 1] += obj.getPropina();
     }
 
-    for(int x = 0 ; x < cantidad ; x ++){
-        obj = arch.Leer(x);
-        if(obj.getIDServicioMesa())
-        {
-            propinas[x] += obj.getPropina();
-        }
-    }
-
-    for(int x = 0 ; x < cantidad ; x ++){
-        obj = arch.Leer(x);
+    for(int x = 0 ; x < 20 ; x ++){
         if(!flag){
-            mayor = propinas[x];
-            mozoRico = obj.getIDMozo();
-        }else if(propinas[x] > mayor && obj.getFecha().getAnio() == 2024){
-            mayor = propinas[x];
-            mozoRico = obj.getIDMozo();
+            propinaMayor = propinaXmozo[x];
+            mozoRico = x + 1;
+            flag = true;
+        }
+        else if(propinaXmozo[x] >= propinaMayor){
+            propinaMayor = propinaXmozo[x];
+            mozoRico = x + 1;
         }
     }
 
-    cout << "***********************************************" << endl;
-    cout << "***********************************************" << endl;
-    cout << "EL MOZO CON MAYOR PROPINA ES N." << mozoRico << endl;
-    cout << "***********************************************" << endl;
-    cout << "***********************************************" << endl;
-    delete []propinas;
+    cout << "================================" << endl;
+    cout << "PUNTO 3: " << mozoRico << endl;
+    cout << "================================" << endl;
+    cout << endl;
 }
 
-float Examen ::calcularPromedio(){
-    ArchivoServicioMesa arch("restaurant.dat");
-    ServicioMesa obj;
-    int cantidad = arch.CantidadRegistros();
-    float acumulador = 0;
-
-    for(int x = 0 ; x < cantidad ; x ++){
-        obj = arch.Leer(x);
-        if(obj.getIDServicioMesa() != 0){
-            acumulador += obj.getPuntajeObtenido();
-        }
-    }
-    float resultado = acumulador / cantidad;
-    return resultado;
-}
 
