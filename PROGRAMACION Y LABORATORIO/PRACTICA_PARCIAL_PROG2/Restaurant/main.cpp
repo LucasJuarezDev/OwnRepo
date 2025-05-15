@@ -5,14 +5,14 @@ int main()
     Examen resolucion;
 
     /*
-    El m茅todo EjemploDeListado muestra c贸mo se puede generar un listado de los registros a partir de los datos de
-    restaurant.dat, se recomienda tomarlo de ejemplo para la resoluci贸n de los dem谩s puntos.
+    El m閠odo EjemploDeListado muestra c髆o se puede generar un listado de los registros a partir de los datos de
+    restaurant.dat, se recomienda tomarlo de ejemplo para la resoluci髇 de los dem醩 puntos.
 
-    Tener en cuenta que deben entregar los archivos Examen.cpp y Examen.h con la resoluci贸n de los puntos solicitados.
-    Todo c贸digo que quieran agregar para la resoluci贸n debe estar dentro de esos archivos.
-    No modifiquen ninguno de los otros archivos ya que no tendr谩n permitido subir esos cambios en la entrega.
+    Tener en cuenta que deben entregar los archivos Examen.cpp y Examen.h con la resoluci髇 de los puntos solicitados.
+    Todo c骴igo que quieran agregar para la resoluci髇 debe estar dentro de esos archivos.
+    No modifiquen ninguno de los otros archivos ya que no tendr醤 permitido subir esos cambios en la entrega.
     */
-    //resolucion.EjemploDeListado();
+    resolucion.EjemploDeListado();
     resolucion.Punto1();
     resolucion.Punto2();
     resolucion.Punto3();
