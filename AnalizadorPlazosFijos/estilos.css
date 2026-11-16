@@ -1,0 +1,158 @@
+/* ===== Estilos generales ===== */
+* {
+  box-sizing: border-box;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f4f7;
+  color: #222;
+}
+
+.contenedor {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+h1 {
+  margin-top: 0;
+  color: #1f3a5f;
+}
+
+h2 {
+  margin: 0 0 8px;
+  font-size: 1.1rem;
+  color: #1f3a5f;
+}
+
+.ayuda {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* ===== Tarjetas y formulario ===== */
+.tarjeta {
+  background: #fff;
+  border: 1px solid #dde2e8;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.grilla-bancos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.grilla-bancos .tarjeta {
+  margin-bottom: 0;
+}
+
+label {
+  display: block;
+  margin: 10px 0 4px;
+  font-size: 0.9rem;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #b8c0cc;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: 2px solid #4a7bd0;
+  border-color: #4a7bd0;
+}
+
+.input-error {
+  border-color: #d93025;
+  background: #fdecea;
+}
+
+.input-error:focus {
+  outline-color: #d93025;
+}
+
+button {
+  margin: 16px 0;
+  padding: 10px 32px;
+  font-size: 1rem;
+  color: #fff;
+  background: #1f6feb;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1a5fd0;
+}
+
+/* ===== Zona de errores ===== */
+.zona-errores {
+  margin-bottom: 16px;
+  padding: 12px 16px;
+  color: #8a1c14;
+  background: #fdecea;
+  border: 1px solid #d93025;
+  border-radius: 6px;
+}
+
+.zona-errores ul {
+  margin: 8px 0 0;
+  padding-left: 20px;
+}
+
+/* ===== Tabla de resultados ===== */
+.tabla-scroll {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: right;
+  white-space: nowrap;
+  border-bottom: 1px solid #dde2e8;
+}
+
+th:first-child,
+td:first-child {
+  text-align: left;
+}
+
+th {
+  background: #eef2f7;
+}
+
+small {
+  font-weight: normal;
+  color: #666;
+}
+
+/* ===== Cartel de recomendación ===== */
+.recomendacion {
+  margin: 16px 0 0;
+  padding: 14px 16px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #136c2e;
+  background: #e3f6e8;
+  border-left: 5px solid #1e8e3e;
+  border-radius: 4px;
+}
