@@ -10,7 +10,7 @@
 class Banco {
   constructor(nombre, tasas) {
     this.nombre = nombre;
-    this.tasas = tasas; // TNA de 2022, 2023 y 2024 en porcentaje. Ej: [120, 90, 26]
+    this.tasas = tasas; // TNA de 2023, 2024 y 2025 en porcentaje. Ej: [120, 90, 26]
   }
 
   // Promedio de las 3 tasas, pasado de porcentaje a decimal (ej: 80% -> 0.8)
@@ -95,13 +95,13 @@ class AnalizadorInversiones {
 // ============================ PARTE 2 - PÁGINA ============================
 
 // ===== BLOQUE 3: Leer el formulario =====
-// El id de cada input se arma con el banco y el año. Ej: "nacion-2022"
+// El id de cada input se arma con el banco y el año. Ej: "nacion-2023"
 const BANCOS_DEL_FORMULARIO = [
   { nombre: 'Banco Nación', prefijoId: 'nacion' },
   { nombre: 'Banco Provincia', prefijoId: 'provincia' },
   { nombre: 'Banco Hipotecario', prefijoId: 'hipotecario' }
 ];
-const ANIOS = [2022, 2023, 2024];
+const ANIOS = [2023, 2024, 2025];
 
 // Lee un input: guarda el texto (para validar) y el número (para calcular).
 // Si el usuario escribe con coma (75,5) se pasa a punto para que JavaScript lo entienda.

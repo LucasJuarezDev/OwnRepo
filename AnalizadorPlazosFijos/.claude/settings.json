@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"c:/Users/lucas/OneDrive/Desktop/OwnRepo/AnalizadorPlazosFijos\" && sed -i -e 's/2024/2025/g' -e 's/2023/2024/g' -e 's/2022/2023/g' index.html app.js GUIONES.md && grep -n \"202[0-9]\" index.html app.js GUIONES.md)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\lucas\\OneDrive\\Desktop\\OwnRepo\\AnalizadorPlazosFijos"
+    ]
+  }
+}

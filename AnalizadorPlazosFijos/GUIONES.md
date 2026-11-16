@@ -2,200 +2,117 @@
 
 > Tip: con **Ctrl+Shift+V** lo ves con formato (vista previa de Markdown).
 
-**Datos para cargar en el video**
-
-- Capital: `850000`
-- Banco Nación: `120` / `90` / `26`
-- Banco Provincia: `110` / `95` / `24`
-- Banco Hipotecario: `125` / `88` / `27`
-
-En cada paso:
-🗣️ **Decís** = lo que hablás ·
-💻 **Código** = qué archivo y qué líneas mostrás ·
-🖥️ **Página** = qué hacés o qué se ve en el navegador
-
----
 ---
 
-# GUION 1 — Video de funcionamiento (2-3 min)
+# Video de funcionamiento (2-3 min)
 
-### PASO 1 — Presentación `0:00`
+**Datos para cargar:** capital `850000` · Nación `120` / `90` / `26` · Provincia `110` / `95` / `24` · Hipotecario `125` / `88` / `27`
 
-- 🖥️ **Página:** la página recién abierta, con el formulario vacío.
-- 🗣️ **Decís:** "Hola, soy ___. Les muestro mi Analizador de Plazos Fijos. Cargás un capital y las tasas de tres bancos, y el programa te dice dónde y cómo te conviene invertir."
+**[página recién abierta, formulario vacío]** Hola, soy Lucas Juárez, del turno noche. Este es el video de funcionamiento del Segundo Parcial: un analizador de plazos fijos. La idea es simple: cargás un capital y las tasas de tres bancos, y el programa te dice dónde y cómo te conviene invertir.
 
-### PASO 2 — El formulario `0:15`
+**[señalo el input del capital]** Arriba va el capital que querés invertir. **[señalo las tres tarjetas]** Abajo hay una tarjeta por banco: Nación, Provincia e Hipotecario. Cada una pide la TNA de 2023, 2024 y 2025, que son los últimos tres años completos. Y las tasas van en porcentaje, o sea, si escribo 120 es 120%.
 
-- 🖥️ **Página:** señalás el input del capital y después las 3 tarjetas.
-- 🗣️ **Decís:** "Arriba va el capital. El 850.000 que está en gris es solo un ejemplo, no está fijo. Abajo hay una tarjeta por banco: Nación, Provincia e Hipotecario. Cada una pide la TNA de 2022, 2023 y 2024. Van en porcentaje: si escribo 120, es 120%."
+**[cargo los datos de prueba]** Entonces cargo 850.000 de capital. En Nación pongo 120, 90 y 26. En Provincia, 110, 95 y 24. Y en Hipotecario, 125, 88 y 27.
 
-### PASO 3 — Cargar los datos `0:35`
+**[clic en Calcular]** Le doy a Calcular y aparecen los resultados. **[señalo "Capital invertido"]** Arriba me confirma el capital que puse.
 
-- 🖥️ **Página:** escribís los 10 valores de arriba.
-- 🗣️ **Decís:** "Cargo 850.000 de capital. Nación: 120, 90 y 26. Provincia: 110, 95 y 24. Hipotecario: 125, 88 y 27."
+**[señalo la columna TNA promedio]** Después hay una fila por banco. Esta primera columna es el promedio de las tres tasas de cada uno: 78,67% el Nación, 76,33% el Provincia y 80% el Hipotecario. Ese promedio es la tasa que se usa para todas las cuentas.
 
-### PASO 4 — Calcular `0:55`
+**[recorro las columnas Anual, Trimestral y Mensual]** Y acá están las 9 ganancias: tres modalidades para cada uno de los tres bancos. **[señalo el texto "Rendimiento = solo la ganancia"]** Ojo con esto: el rendimiento es solo lo que ganás, no incluye el capital que pusiste. Así comparás directo cuánta plata extra te deja cada opción.
 
-- 🖥️ **Página:** clic en **Calcular**. Aparece la sección Resultados.
-- 🗣️ **Decís:** "Le doy a Calcular. Arriba me confirma el capital que invertí: 850.000 pesos."
+**[señalo la fila del Hipotecario, celda por celda]** Por ejemplo, el Hipotecario. Si dejás la plata quieta un año entero, ganás 680.000. Si reinvertís cada tres meses, ganás 912.560. Y si reinvertís todos los meses, ganás 994.011.
 
-### PASO 5 — Los promedios `1:05`
+**[señalo la columna Mensual]** Fijate que en los tres bancos la mensual es la que más gana. Y tiene sentido: cada mes la ganancia se suma a la plata, entonces el mes siguiente ganás intereses también sobre eso. Es como una bola de nieve: cuanto más seguido reinvertís, más rápido crece.
 
-- 🖥️ **Página:** señalás la columna **TNA promedio** (78,67% / 76,33% / 80%).
-- 🗣️ **Decís:** "Hay una fila por banco. Esta columna es el promedio de las tres tasas de cada uno."
+**[señalo el cartel verde]** Y abajo el cartel te lo dice directo: te conviene invertir en el Banco Hipotecario, de forma mensual, con una ganancia de 994.011 pesos con 43.
 
-### PASO 6 — Las 9 ganancias `1:15`
+**[cambio el capital a 2435000 y clic en Calcular]** Ahora cambio solo el capital, pongo 2.435.000, y calculo de nuevo. Se recalcula todo, y el Hipotecario mensual ahora da 2.847.550 pesos. O sea, el programa trabaja con lo que vos cargás, no con números fijos.
 
-- 🖥️ **Página:** recorrés con el mouse las columnas Anual, Trimestral y Mensual. Después señalás el texto "Rendimiento = solo la ganancia".
-- 🗣️ **Decís:** "Estas tres columnas son las 9 ganancias: anual, trimestral y mensual, para cada banco. Ojo: es solo lo que ganás. No incluye el capital que pusiste."
+**[en Nación 2024 escribo `abc`, borro Hipotecario 2025 y clic en Calcular]** Una prueba rápida: si escribo letras o dejo un campo vacío, no calcula. Me dice qué campo está mal, me lo marca en rojo y me deja el cursor ahí. **[vuelvo a poner 90 y 27, clic en Calcular]** Lo corrijo, calculo y vuelve a andar.
 
-### PASO 7 — Ejemplo con el Hipotecario `1:30`
-
-- 🖥️ **Página:** señalás la fila del Hipotecario, celda por celda.
-- 🗣️ **Decís:** "Por ejemplo, el Hipotecario. Si dejás la plata un año entero, ganás 680.000. Si reinvertís cada tres meses, ganás 912.560. Y si reinvertís todos los meses, ganás 994.011."
-
-### PASO 8 — Por qué la mensual gana más `1:45`
-
-- 🖥️ **Página:** señalás de izquierda a derecha cómo crecen los números en cada fila.
-- 🗣️ **Decís:** "Fijate que en los tres bancos la mensual gana más y la anual menos. No es un error: cuanto más seguido reinvertís, más ganás."
-
-### PASO 9 — La recomendación `1:55`
-
-- 🖥️ **Página:** señalás el cartel verde de abajo.
-- 🗣️ **Decís:** "Y abajo el cartel lo dice clarito: te conviene invertir en el Banco Hipotecario, de forma mensual, con una ganancia de 994.011 pesos con 43."
-
-### PASO 10 — Otro capital `2:05`
-
-- 🖥️ **Página:** borrás el capital, escribís `2435000` y clic en **Calcular**. El cartel ahora dice $ 2.847.550,39.
-- 🗣️ **Decís:** "Ahora cambio solo el capital: pongo 2.435.000 y calculo de nuevo. Se recalcula todo. El Hipotecario mensual ahora da 2.847.550 pesos. O sea, el capital no está fijo en el código: usa lo que vos cargás."
-
-### PASO 11 — Validaciones: letra, negativo y vacío `2:20`
-
-- 🖥️ **Página:** en Nación 2023 escribís `abc`, en Provincia 2023 escribís `-5` y borrás Hipotecario 2024. Clic en **Calcular**. Desaparece la tabla y aparece la caja roja.
-- 🗣️ **Decís:** "Ahora pruebo las validaciones. En Nación 2023 escribo letras, en Provincia 2023 un negativo, y Hipotecario 2024 lo dejo vacío. Calculo. No calcula nada. Me dice qué campo está mal y por qué, me marca los tres en rojo y me deja el cursor en el primero."
-
-### PASO 12 — Capital en cero `2:40`
-
-- 🖥️ **Página:** en el capital escribís `0` y clic en **Calcular**.
-- 🗣️ **Decís:** "Si pongo el capital en cero, me avisa que tiene que ser mayor a cero."
-
-### PASO 13 — Cierre `2:50`
-
-- 🖥️ **Página:** cargás de nuevo los datos buenos y clic en **Calcular**. Vuelven la tabla y el cartel.
-- 🗣️ **Decís:** "Corrijo todo, calculo y vuelve a andar. Eso es todo, ¡gracias!"
+Y eso es todo, gracias.
 
 ---
+
+# Video del código (4-5 min)
+
+**Datos para cargar:** capital `850000` · Nación `120` / `90` / `26` · Provincia `110` / `95` / `24` · Hipotecario `125` / `88` / `27`
+
+**[app.js abierto, arriba de todo]** Hola, soy Lucas Juárez, del turno noche. Este es el video del código del Segundo Parcial. Todo el funcionamiento está en app.js, así que lo voy a recorrer de arriba hacia abajo.
+
+**[app.js, líneas 1-3]** El archivo está dividido en dos partes. La parte 1 es la lógica: dos clases, `Banco` y `AnalizadorInversiones`, que hacen todas las cuentas y no tocan la página. La parte 2 es la que habla con la página: lee lo que cargaste, lo valida y muestra los resultados. Separarlo sirve para que las cuentas no dependan de cómo está armada la pantalla.
+
+**[app.js, líneas 10-14: `class Banco`]** Arranco con la clase `Banco`. Cada banco guarda su `nombre` y sus `tasas`, que son las tres TNA en porcentaje. ¿Por qué una clase? Porque cada banco tiene sus propios datos y sabe hacer sus propias cuentas, entonces todo lo de un banco queda junto en un objeto.
+
+**[app.js, líneas 17-24: `calcularPromedio`]** El primer método es `calcularPromedio`. **[líneas 18-21]** Recorre `this.tasas` y las va sumando en `suma`. **[línea 22]** Después divide por `this.tasas.length`, o sea por la cantidad de tasas, y eso queda en `promedioEnPorcentaje`. **[línea 23]** Y al final lo divide por cien para pasarlo a decimal. Por ejemplo, en el Hipotecario: 125 más 88 más 27 da 240, dividido 3 da 80, y dividido 100 queda 0,8. **[página: columna TNA promedio]** Esto llena la columna TNA promedio, y es la tasa que usan todas las demás cuentas.
+
+**[app.js, líneas 27-29: `calcularGananciaAnual`]** Después viene `calcularGananciaAnual`, que es la más simple: **[línea 28]** `capital` por `calcularPromedio()`, porque en la anual cobrás el interés una sola vez. En el Hipotecario, 850.000 por 0,8 da 680.000. **[página: columna Anual]** Esa es la columna Anual.
+
+**[app.js, líneas 33-41: `calcularGananciaCompuesta`]** Y este es el método más importante, `calcularGananciaCompuesta`. Recibe el `capital` y los `periodos`, y sirve para la trimestral y la mensual: lo único que cambia es si `periodos` vale 4 o 12. **[línea 34]** Primero calcula `tasaDelPeriodo`, que es la tasa anual dividida por los períodos. En el Hipotecario mensual es 0,8 dividido 12, o sea, 6,67% por mes. **[línea 35]** `monto` arranca valiendo el capital. **[líneas 36-39]** Y en cada período **[línea 37]** calcula `gananciaDelPeriodo`, que es el monto por la tasa del período, **[línea 38]** y se la suma al `monto`. Esta línea es la bola de nieve: la ganancia queda adentro, entonces el período siguiente gana sobre una plata más grande. En el Hipotecario, el primer mes gana 56.666 pesos y el último ya gana 115.250, con la misma tasa. **[línea 40]** Al final devuelve `monto - capital`, o sea, solo la ganancia, sin el capital que pusiste.
+
+**[app.js, líneas 44-50: `calcularRendimientos`]** `calcularRendimientos` junta las tres en un objeto: **[líneas 46-48]** `anual`, `trimestral`, que llama a la compuesta con 4, y `mensual`, que la llama con 12. **[página: fila del Hipotecario]** Eso es una fila entera de la tabla.
+
+**[app.js, líneas 55-60: `class AnalizadorInversiones`]** La segunda clase es `AnalizadorInversiones`, y sirve para comparar los bancos entre sí. Recibe el `capital` y la lista de `bancos`, y tiene `resultados`, que arranca vacío.
+
+**[app.js, líneas 63-69: `analizar`]** `analizar` recorre los bancos, **[línea 66]** a cada uno le pide `calcularRendimientos` **[línea 67]** y guarda el banco con sus rendimientos en `resultados`. Ahí quedan los 9 números de la tabla.
+
+**[app.js, líneas 72-91: `obtenerMejorOpcion`]** Y `obtenerMejorOpcion` elige la mejor. **[línea 73]** `mejorOpcion` arranca en null. **[líneas 75-79]** Por cada banco arma la lista `opciones` con sus tres modalidades, **[línea 81]** y si una opción gana más que la `mejorOpcion` que tenía guardada, la reemplaza. Entonces, después de pasar por las 9, **[línea 90]** devuelve el banco, la modalidad y la ganancia de la que más gana. **[página: cartel verde]** Eso es lo que dice el cartel.
+
+**[app.js, línea 95]** Hasta acá la lógica. La parte 2 la paso más rápido. **[app.js, líneas 99-104: `BANCOS_DEL_FORMULARIO` y `ANIOS`]** Acá están las listas de bancos y de años. **[app.js, líneas 108-112: `leerCampo`]** `leerCampo` busca el input con `getElementById`, agarra lo que escribiste con `value` y lo guarda como texto, para validar, y como número, para las cuentas. Si usaste coma, la pasa a punto. **[app.js, líneas 115-126: `leerDatosDelFormulario`]** Y `leerDatosDelFormulario` combina las dos listas **[línea 120]** para armar cada id, tipo nacion-2023, y así lee los 10 valores sin repetir código.
+
+**[app.js, líneas 128-165: `validarCampo` y `validarDatos`]** Después, `validarCampo` y `validarDatos` revisan que nada esté vacío, que sean números, que no sean negativos y que el capital sea mayor a cero. Si algo falla, juntan los mensajes de error.
+
+**[app.js, líneas 168-178: `crearBancos`]** `crearBancos` agarra las tasas ya validadas de cada banco **[línea 175]** y crea un `new Banco` con ellas. O sea, es el puente entre el formulario y las clases.
+
+**[app.js, líneas 181-209]** Después hay funciones chicas para la pantalla: `formatearPesos` y `formatearPorcentaje` le dan formato a los números, `limpiarPantalla` borra lo anterior y `mostrarErrores` arma la caja roja.
+
+**[app.js, líneas 212-236: `mostrarResultados`]** `mostrarResultados` arma una fila por banco con el nombre, el promedio y las tres ganancias, **[línea 225]** y las mete en la tabla con `innerHTML`. **[línea 227]** Después llama a `obtenerMejorOpcion`, **[líneas 229-234]** escribe el cartel con esa opción **[línea 235]** y muestra la sección.
+
+**[app.js, líneas 240-254: el clic en Calcular]** Y abajo de todo está lo que une todo: el clic en Calcular. **[líneas 241-253]** Llama a `limpiarPantalla`, lee con `leerDatosDelFormulario` y valida con `validarDatos`. Si hay errores, los muestra y corta. Si está todo bien, usa `crearBancos`, crea el `AnalizadorInversiones`, llama a `analizar` y después a `mostrarResultados`.
+
+**[página: la tabla y el cartel]** Resumiendo: la parte 2 lee y valida lo que cargás, las clases calculan el promedio, las 9 ganancias y la mejor opción, y la parte 2 lo muestra en la página. Eso es todo, gracias.
+
 ---
 
-# GUION 2 — Video de explicación del código (3-5 min)
+# Preparación para la defensa
 
-> Tené la página abierta al costado (o en otra pestaña), así mostrás qué parte de la pantalla llena cada bloque.
+## Preguntas que te puede hacer
 
-### PASO 1 — Los archivos `0:00`
+- **¿Por qué 2023, 2024 y 2025 y no 2022 a 2024?**
+  "Porque estamos en 2026, entonces los últimos tres años completos son 2023, 2024 y 2025. El 2026 todavía no terminó, así que no tengo la tasa del año entero."
 
-- 💻 **Código:** el explorador de VS Code con los 3 archivos. Abrís `estilos.css` un segundo y lo cerrás.
-- 🗣️ **Decís:** "Ahora les explico el código. Son tres archivos: index.html, estilos.css y app.js. El CSS es solo para que se vea prolijo, así que me enfoco en el HTML y en app.js."
+- **¿Por qué usaste clases?**
+  "Porque cada banco tiene sus datos, el nombre y las tasas, y sus propias cuentas, entonces tiene sentido que vayan juntos en un objeto. Y el AnalizadorInversiones se encarga de comparar los bancos entre sí. Así cada cosa tiene su lugar y no ando pasando tasas de función en función."
 
-### PASO 2 — El formulario en el HTML `0:15`
+- **¿Por qué no usaste Math.pow?**
+  "Con Math.pow sale en una línea y da exactamente lo mismo: capital por (1 + tasa / períodos) a la cantidad de períodos, menos el capital. Pero con el for se ve paso a paso cómo cada ganancia se reinvierte, que es justo la bola de nieve que quería mostrar. Lo elegí para que se entienda, no porque Math.pow esté mal."
 
-- 💻 **Código:** `index.html`, líneas **18 a 56**. Después señalás la línea **30**.
-- 🗣️ **Decís:** "De acá a acá está el formulario: el input del capital y las tres tarjetas de los bancos. Cada input tiene un id, por ejemplo nacion-2022. Con ese id, JavaScript lee lo que escribiste. Los inputs son de tipo texto a propósito: así, si alguien escribe una letra, la detectamos y le avisamos."
-- 🖥️ **Página:** el formulario.
+- **¿Por qué el rendimiento es solo la ganancia?**
+  "Porque es lo que pide el enunciado, y porque es lo que te interesa comparar: cuánta plata extra te deja cada opción. El capital es el mismo para todas, así que sumarlo no cambia cuál gana. Solo agrega un número que ya sabés."
 
-### PASO 3 — Botón, errores y resultados en el HTML `0:40`
+- **¿Para qué separaste la lógica de la parte de la página?**
+  "Para que las cuentas no dependan del HTML. Las clases no leen ni escriben nada en la pantalla: reciben números y devuelven números. Entonces si cambio el diseño de la página, las cuentas no las toco, y si quiero probar las cuentas, las pruebo sin abrir la página."
 
-- 💻 **Código:** `index.html`, líneas **58 a 84**. Señalás `hidden`, la línea **79** (`cuerpo-tabla`) y la línea **88** (`app.js`).
-- 🗣️ **Decís:** "Acá está el botón Calcular, la caja de errores y la sección de resultados. Las dos últimas arrancan ocultas. La tabla tiene el cuerpo vacío: lo llena JavaScript. Y al final se carga app.js."
-- 🖥️ **Página:** el botón Calcular.
+## Modificaciones que te pueden pedir
 
-### PASO 4 — Cómo está ordenado app.js `1:00`
+Solo dónde tocar. El código lo armás vos.
 
-- 💻 **Código:** `app.js`, líneas **1 a 6**. Después bajás hasta la línea **95**.
-- 🗣️ **Decís:** "app.js tiene dos partes. La parte 1 es la lógica: las clases que hacen las cuentas, sin tocar la página. La parte 2 es todo lo que lee y escribe en la página."
+- **Agregar un 4° banco**
+  - `index.html`: una tarjeta nueva dentro de la grilla, después de la del Hipotecario (líneas 47-55) y antes del cierre del div (línea 56). Copiá el patrón de ids.
+  - `app.js`: la lista `BANCOS_DEL_FORMULARIO` (líneas 99-103). El prefijo tiene que coincidir con los ids del HTML.
+  - Para pensar: ¿por qué no hace falta tocar las clases, la validación ni la tabla? (El CSS tampoco: la grilla se acomoda sola).
+  - Prolijidad: los comentarios que dicen "3 bancos", "9" o "10 valores" (`app.js` líneas 54, 71, 114 y 149; `index.html` línea 25).
 
-### PASO 5 — Clic en Calcular `1:15`
+- **Agregar modalidad semestral**
+  - `app.js`: `calcularRendimientos` (líneas 43-50). Pensá cuántos períodos tiene un año en semestres.
+  - `app.js`: la lista de opciones de `obtenerMejorOpcion` (líneas 75-79), para que la semestral también compita.
+  - `app.js`: la fila que arma `mostrarResultados` (líneas 215-222), una celda más.
+  - `index.html`: el encabezado de la tabla (líneas 71-77), una columna más en el mismo orden que las celdas.
+  - Para pensar: ¿por qué `calcularGananciaCompuesta` (líneas 31-41) no se toca?
 
-- 💻 **Código:** `app.js`, BLOQUE 7, líneas **238 a 254**.
-- 🗣️ **Decís:** "Voy en el orden en que se ejecuta. Todo arranca acá abajo, cuando hacés clic en Calcular. Es como una receta: limpia la pantalla, lee los datos y los valida. Si hay errores, los muestra y corta acá. Si está todo bien, crea los bancos, analiza y muestra los resultados."
-- 🖥️ **Página:** clic en **Calcular**.
-
-### PASO 6 — Leer el formulario `1:40`
-
-- 💻 **Código:** `app.js`, BLOQUE 3, líneas **97 a 126**. Señalás la línea **120**.
-- 🗣️ **Decís:** "Primero se leen los datos. Acá tengo la lista de bancos y de años. Con eso armo el id de cada input: nacion-2022, nacion-2023, y así. Leo los 10 valores sin repetir código. leerCampo guarda lo que escribiste y ya lo pasa a número. Si usás coma, como 75,5, también lo entiende."
-- 🖥️ **Página:** los 10 inputs.
-
-### PASO 7 — Validar `2:05`
-
-- 💻 **Código:** `app.js`, BLOQUE 4, líneas **128 a 165**.
-- 🗣️ **Decís:** "Después se valida. validarCampo revisa en orden: si está vacío, si no es número y si es negativo. Al capital además le pide que no tenga puntos y que sea mayor a cero. Si algo falla, devuelve el mensaje: son los mismos textos de la caja roja. validarDatos pasa por los 10 campos y junta todos los errores en una lista."
-
-### PASO 8 — Mostrar errores `2:30`
-
-- 💻 **Código:** `app.js`, `mostrarErrores`, líneas **198 a 209**.
-- 🗣️ **Decís:** "Si la lista tiene algo, mostrarErrores arma la caja roja, pinta los inputs en rojo y pone el cursor en el primero."
-- 🖥️ **Página:** la caja roja con los inputs en rojo.
-
-### PASO 9 — Crear los bancos `2:40`
-
-- 💻 **Código:** `app.js`, BLOQUE 5, líneas **167 a 178**.
-- 🗣️ **Decís:** "Si no hay errores, crearBancos agarra las tres tasas de cada banco y crea un objeto Banco."
-
-### PASO 10 — Por qué usamos clases `2:50`
-
-- 💻 **Código:** `app.js`, `class Banco`, líneas **8 a 14**.
-- 🗣️ **Decís:** "¿Por qué clases? Porque cada banco guarda sus propias tasas y sabe calcular sus propias ganancias. Así queda todo ordenado."
-- 🖥️ **Página:** las 3 filas de la tabla, una por banco.
-
-### PASO 11 — El promedio `3:00`
-
-- 💻 **Código:** `calcularPromedio`, líneas **16 a 24**.
-- 🗣️ **Decís:** "calcularPromedio suma las tres tasas, divide por tres y después por cien, para pasar de porcentaje a decimal. Este método llena la columna TNA promedio."
-- 🖥️ **Página:** la columna TNA promedio.
-
-### PASO 12 — La ganancia anual `3:10`
-
-- 💻 **Código:** `calcularGananciaAnual`, líneas **26 a 29**.
-- 🗣️ **Decís:** "La anual es la más simple: capital por tasa. Esto llena la columna Anual."
-- 🖥️ **Página:** la columna Anual.
-
-### PASO 13 — La ganancia con reinversión `3:20`
-
-- 💻 **Código:** `calcularGananciaCompuesta`, líneas **31 a 41**. Señalás la línea **34**, el for (**36 a 39**) y la línea **40**.
-- 🗣️ **Decís:** "Este es el método más importante. Sirve para trimestral y para mensual: solo cambia la cantidad de períodos. Divido la tasa anual por 4 o por 12. En cada vuelta calculo lo que ganó ese período y se lo sumo a la plata. Al final devuelvo la plata final menos el capital. O sea, solo la ganancia, que es lo que pide el enunciado."
-- 🖥️ **Página:** las columnas Trimestral y Mensual.
-
-### PASO 14 — La bola de nieve `3:45`
-
-- 💻 **Código:** línea **38** (`monto = monto + gananciaDelPeriodo`).
-- 🗣️ **Decís:** "Por eso la mensual siempre gana más. La ganancia se reinvierte todos los meses: es una bola de nieve. Cada mes la bola es más grande y gana un poco más. En el Hipotecario, el primer mes gana 56.666 pesos y el último ya gana 115.250, con la misma tasa."
-- 🖥️ **Página:** la columna Mensual, que es la más alta.
-
-### PASO 15 — Las tres juntas `4:00`
-
-- 💻 **Código:** `calcularRendimientos`, líneas **43 a 50**. Señalás el 4 y el 12.
-- 🗣️ **Decís:** "calcularRendimientos junta las tres: la anual, la compuesta con 4 y la compuesta con 12. Esto es una fila de la tabla."
-- 🖥️ **Página:** una fila completa.
-
-### PASO 16 — La clase AnalizadorInversiones `4:10`
-
-- 💻 **Código:** `app.js`, BLOQUE 2, líneas **53 a 69**.
-- 🗣️ **Decís:** "La segunda clase es AnalizadorInversiones. Recibe el capital y los tres bancos. analizar le pide a cada banco sus ganancias y las guarda. Son los 9 números de la tabla."
-- 🖥️ **Página:** las 9 celdas.
-
-### PASO 17 — La mejor opción `4:25`
-
-- 💻 **Código:** `obtenerMejorOpcion`, líneas **71 a 91**. Señalás el if de la línea **81**.
-- 🗣️ **Decís:** "obtenerMejorOpcion recorre las 9 combinaciones: por cada banco mira la anual, la trimestral y la mensual, y se va quedando con la que más gana. Devuelve el banco, la modalidad y la ganancia. Eso es lo que sale en el cartel."
-- 🖥️ **Página:** el cartel verde.
-
-### PASO 18 — Mostrar los resultados `4:40`
-
-- 💻 **Código:** `app.js`, BLOQUE 6: `formatearPesos` (líneas **181 a 183**) y `mostrarResultados` (líneas **211 a 236**).
-- 🗣️ **Decís:** "Con todo calculado volvemos a la página. formatearPesos pone el número en pesos argentinos: signo peso, puntos de miles y coma. mostrarResultados arma una fila por banco con el nombre, el promedio y las tres ganancias. Después escribe el cartel con la recomendación y muestra la sección."
-- 🖥️ **Página:** la tabla y el cartel.
-
-### PASO 19 — Cierre `4:55`
-
-- 💻 **Código:** scroll rápido por `app.js` de arriba a abajo.
-- 🗣️ **Decís:** "Resumiendo: el HTML tiene el formulario, el botón arranca todo, se lee y se valida, las clases hacen las cuentas y la parte 2 lo muestra. ¡Gracias!"
+- **Pasar de 3 a 4 años de historial**
+  - `app.js`: la lista `ANIOS` (línea 104). Ojo con qué año agregás y dónde.
+  - `index.html`: un label y un input más en cada tarjeta (Nación 29-34, Provincia 39-44, Hipotecario 49-54).
+  - `index.html`: el texto de ayuda que dice "últimos 3 años" (línea 14).
+  - Para pensar: ¿por qué `calcularPromedio` (líneas 16-24) sigue andando sin cambios?
+  - Prolijidad: los comentarios de `app.js` líneas 9, 13 y 114, e `index.html` línea 25.

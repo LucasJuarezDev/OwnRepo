@@ -1,0 +1,9 @@
+que es tna de 2022, 2023, 2024?
+
+texto final
+
+hola , soy el alumno lucas juarez del turno noche, y vengo a presentar para la materia Introduccion al analisis de datos
+mi pequeño programa par analizar los plazos fijos de distintos bancos, donde la persona podra saber donde y como invertir
+su capital.
+(señalo los inputs) aca es donde la persona introducira el valor de dinero que desea invertir y abajo tenemos los tres bancos
+señalados para que la persona pueda comparar las TNA (TASA NOMINAL ANUAL) de los ultimos 3 años.
