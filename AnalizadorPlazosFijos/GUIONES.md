@@ -16,9 +16,9 @@
 
 **[clic en Calcular]** Le doy a Calcular y aparecen los resultados. **[señalo "Capital invertido"]** Arriba me confirma el capital que puse.
 
-**[señalo la columna TNA promedio]** Después hay una fila por banco. Esta primera columna es el promedio de las tres tasas de cada uno: 78,67% el Nación, 76,33% el Provincia y 80% el Hipotecario. Ese promedio es la tasa que se usa para todas las cuentas.
+**[señalo la columna TNA promedio]** Primero, la TNA es la Tasa Nominal Anual, o sea, el porcentaje que te paga el banco por año sobre la plata que dejás. Pero fijate que las tasas cambiaron un montón de un año a otro: el Nación pagaba 120% en 2023 y 26% en 2025. Entonces, para tener un solo número por banco y poder compararlos parejo, el programa promedia las tres tasas. **[señalo la celda del Nación]** Por ejemplo, el Nación: 120 más 90 más 26 da 236, dividido 3 da 78,67%. **[señalo las otras dos celdas]** El Provincia da 76,33% y el Hipotecario 80%. Y ese promedio es la tasa que se usa para calcular todas las ganancias.
 
-**[recorro las columnas Anual, Trimestral y Mensual]** Y acá están las 9 ganancias: tres modalidades para cada uno de los tres bancos. **[señalo el texto "Rendimiento = solo la ganancia"]** Ojo con esto: el rendimiento es solo lo que ganás, no incluye el capital que pusiste. Así comparás directo cuánta plata extra te deja cada opción.
+**[recorro las columnas Anual, Trimestral y Mensual]** Después están las tres formas de invertir. **[señalo la columna Anual]** En la anual dejás la plata quieta un año entero y cobrás el interés una sola vez, al final. **[señalo la columna Trimestral]** En la trimestral hacés un plazo fijo de tres meses y, cuando vence, lo renovás con el capital más lo que ganaste. Eso se repite cuatro veces en el año. **[señalo la columna Mensual]** Y la mensual es lo mismo, pero renovando todos los meses, o sea, doce veces. Entonces, tres formas por tres bancos: esas son las 9 ganancias de la tabla.
 
 **[señalo la fila del Hipotecario, celda por celda]** Por ejemplo, el Hipotecario. Si dejás la plata quieta un año entero, ganás 680.000. Si reinvertís cada tres meses, ganás 912.560. Y si reinvertís todos los meses, ganás 994.011.
 
