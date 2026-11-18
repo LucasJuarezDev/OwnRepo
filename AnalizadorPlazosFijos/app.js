@@ -1,19 +1,9 @@
-// ANALIZADOR DE PLAZOS FIJOS - Segundo Parcial
-// PARTE 1 (lógica): clases Banco y AnalizadorInversiones. Hacen las cuentas y no tocan el HTML.
-// PARTE 2 (página): funciones que leen el formulario y muestran los resultados.
-
-
-// ============================ PARTE 1 - LÓGICA ============================
-
-// ===== BLOQUE 1: Clase Banco =====
-// Cada banco guarda su nombre y sus 3 tasas, y sabe calcular sus propias ganancias.
 class Banco {
   constructor(nombre, tasas) {
     this.nombre = nombre;
-    this.tasas = tasas; // TNA de 2023, 2024 y 2025 en porcentaje. Ej: [120, 90, 26]
+    this.tasas = tasas; 
   }
 
-  // Promedio de las 3 tasas, pasado de porcentaje a decimal (ej: 80% -> 0.8)
   calcularPromedio() {
     let suma = 0;
     for (const tasa of this.tasas) {
@@ -23,13 +13,10 @@ class Banco {
     return promedioEnPorcentaje / 100;
   }
 
-  // Anual: la plata queda quieta todo el año y se cobra el interés una sola vez
   calcularGananciaAnual(capital) {
     return capital * this.calcularPromedio();
   }
 
-  // Trimestral (4 períodos) y mensual (12 períodos): la tasa anual se divide en partes
-  // iguales y al final de cada período se reinvierte capital + ganancia. Devuelve SOLO la ganancia.
   calcularGananciaCompuesta(capital, periodos) {
     const tasaDelPeriodo = this.calcularPromedio() / periodos;
     let monto = capital;
@@ -40,7 +27,6 @@ class Banco {
     return monto - capital;
   }
 
-  // Las ganancias de las 3 modalidades juntas (es una fila de la tabla)
   calcularRendimientos(capital) {
     return {
       anual: this.calcularGananciaAnual(capital),
@@ -49,9 +35,6 @@ class Banco {
     };
   }
 }
-
-// ===== BLOQUE 2: Clase AnalizadorInversiones =====
-// Recibe el capital y los 3 bancos, calcula las 9 ganancias y elige la mejor.
 class AnalizadorInversiones {
   constructor(capital, bancos) {
     this.capital = capital;
@@ -59,7 +42,6 @@ class AnalizadorInversiones {
     this.resultados = [];
   }
 
-  // Le pide a cada banco sus 3 ganancias y las guarda en "resultados"
   analizar() {
     this.resultados = [];
     for (const banco of this.bancos) {
@@ -68,7 +50,6 @@ class AnalizadorInversiones {
     }
   }
 
-  // Recorre las 9 combinaciones (3 bancos x 3 modalidades) y se queda con la de mayor ganancia
   obtenerMejorOpcion() {
     let mejorOpcion = null;
     for (const resultado of this.resultados) {
@@ -92,10 +73,9 @@ class AnalizadorInversiones {
 }
 
 
-// ============================ PARTE 2 - PÁGINA ============================
+// ========================================================
 
-// ===== BLOQUE 3: Leer el formulario =====
-// El id de cada input se arma con el banco y el año. Ej: "nacion-2023"
+
 const BANCOS_DEL_FORMULARIO = [
   { nombre: 'Banco Nación', prefijoId: 'nacion' },
   { nombre: 'Banco Provincia', prefijoId: 'provincia' },
@@ -103,15 +83,14 @@ const BANCOS_DEL_FORMULARIO = [
 ];
 const ANIOS = [2023, 2024, 2025];
 
-// Lee un input: guarda el texto (para validar) y el número (para calcular).
-// Si el usuario escribe con coma (75,5) se pasa a punto para que JavaScript lo entienda.
+
 function leerCampo(id, etiqueta) {
   const texto = document.getElementById(id).value.trim();
   const numero = Number(texto.replace(',', '.'));
   return { id: id, etiqueta: etiqueta, texto: texto, numero: numero };
 }
 
-// Lee los 10 valores: el capital y las 9 tasas (3 bancos x 3 años)
+
 function leerDatosDelFormulario() {
   const datos = { capital: leerCampo('capital', 'Capital a invertir'), bancos: [] };
   for (const banco of BANCOS_DEL_FORMULARIO) {
@@ -125,8 +104,6 @@ function leerDatosDelFormulario() {
   return datos;
 }
 
-// ===== BLOQUE 4: Validar los datos =====
-// Revisa un campo y devuelve el mensaje de error, o '' si está todo bien
 function validarCampo(campo, esCapital) {
   if (campo.texto === '') {
     return `Completá el campo "${campo.etiqueta}".`;
@@ -146,7 +123,6 @@ function validarCampo(campo, esCapital) {
   return '';
 }
 
-// Valida los 10 campos y devuelve la lista de errores (vacía si está todo bien)
 function validarDatos(datos) {
   const errores = [];
   const errorCapital = validarCampo(datos.capital, true);
@@ -164,7 +140,6 @@ function validarDatos(datos) {
   return errores;
 }
 
-// ===== BLOQUE 5: Pasar los datos del formulario a objetos Banco =====
 function crearBancos(datos) {
   const bancos = [];
   for (const banco of datos.bancos) {
@@ -177,7 +152,6 @@ function crearBancos(datos) {
   return bancos;
 }
 
-// ===== BLOQUE 6: Mostrar en pantalla =====
 function formatearPesos(numero) {
   return numero.toLocaleString('es-AR', { style: 'currency', currency: 'ARS' });
 }
@@ -186,7 +160,6 @@ function formatearPorcentaje(numeroDecimal) {
   return (numeroDecimal * 100).toLocaleString('es-AR', { maximumFractionDigits: 2 }) + '%';
 }
 
-// Borra los errores y resultados anteriores antes de cada cálculo
 function limpiarPantalla() {
   document.getElementById('zona-errores').hidden = true;
   document.getElementById('zona-resultados').hidden = true;
@@ -195,7 +168,6 @@ function limpiarPantalla() {
   }
 }
 
-// Muestra la lista de errores, pinta de rojo los inputs que están mal y pone el cursor en el primero
 function mostrarErrores(errores) {
   let lista = '';
   for (const error of errores) {
@@ -208,7 +180,6 @@ function mostrarErrores(errores) {
   document.getElementById(errores[0].id).focus();
 }
 
-// Arma la tabla (una fila por banco) y el cartel con la recomendación
 function mostrarResultados(analizador) {
   let filas = '';
   for (const resultado of analizador.resultados) {
@@ -235,8 +206,6 @@ function mostrarResultados(analizador) {
   document.getElementById('zona-resultados').hidden = false;
 }
 
-// ===== BLOQUE 7: Botón "Calcular" (une todo) =====
-// Orden: limpiar -> leer -> validar -> calcular con las clases -> mostrar
 document.getElementById('boton-calcular').addEventListener('click', function () {
   limpiarPantalla();
 

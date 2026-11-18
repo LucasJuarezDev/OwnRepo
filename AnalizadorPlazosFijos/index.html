@@ -3,22 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Analizador de Plazos Fijos</title>
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
   <main class="contenedor">
 
-    <h1>Analizador de Plazos Fijos</h1>
-    <p class="ayuda">
-      Ingresá el capital y las tasas TNA de los últimos 3 años de cada banco.
-      Las tasas van en porcentaje: si escribís 120 significa 120%.
-    </p>
-
     <!-- ===== BLOQUE 1: Capital a invertir ===== -->
     <section class="tarjeta">
       <h2>Capital a invertir</h2>
-      <label for="capital">Monto en pesos (sin puntos)</label>
+      <label for="capital">Monto</label>
       <input type="text" id="capital" inputmode="decimal" autocomplete="off" >
     </section>
 
@@ -63,7 +56,6 @@
     <section id="zona-resultados" class="tarjeta" hidden>
       <h2>Resultados</h2>
       <p>Capital invertido: <strong id="capital-invertido"></strong></p>
-      <p class="ayuda">Rendimiento = solo la ganancia (no incluye el capital invertido).</p>
 
       <div class="tabla-scroll">
         <table>
@@ -71,9 +63,9 @@
             <tr>
               <th>Banco</th>
               <th>TNA promedio</th>
-              <th>Anual<br><small>1 año completo</small></th>
-              <th>Trimestral<br><small>reinvierte 4 veces</small></th>
-              <th>Mensual<br><small>reinvierte 12 veces</small></th>
+              <th>Anual</th>
+              <th>Trimestral</th>
+              <th>Mensual</th>
             </tr>
           </thead>
           <tbody id="cuerpo-tabla"></tbody>
